@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: rougier
+          user: voidmain443
           template: classic
           base: ""
           filename: metrics-achievements.svg
