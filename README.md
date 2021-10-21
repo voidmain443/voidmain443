@@ -1,3 +1,10 @@
+<p><pre align="center">
+<strong>voidmain443 /</strong> <a href="https://www.labri.fr/perso/nrougier">Homepage</a> / <a href="">Twitter</a> / <a href="">Reddit</a> / <a href="">GitHub</a> / <a href="">Gist</a> / <a href="">Stackoveflow</a> / <a href="">Slideshare</a> / <a href="">Shadertoy</a></pre></p>
+
+<a href="https://metrics.lecoq.io/about/voidmain443"><img src="metrics-base.svg" align="left" width="47.5%"></img></a>
+<a href="https://metrics.lecoq.io/about/voidmain443"><img src="metrics-achievements.svg" align="left" width="47.5%"></img></a>
+
+
 - 👋 Hi, I’m @voidmain443
 - 👀 I’m interested in economics and python ,go , flutter fushcia
 - 🌱 I’m currently learning python and economics and ML
