@@ -1,7 +1,7 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=Voidmain443&fontAlign=50&fontAlignY=40&color=gradient)
 
 <p><pre align="center">
-<strong>voidmain443 /</strong> <a href="">Homepage</a> / <a href="https://twitter.com/voidmain443">Twitter</a> / <a href="https://www.reddit.com/user/Voidmain443">Reddit</a> / <a href="">GitHub</a> / <a href="">Gist</a> / <a href="">Stackoveflow</a> </pre></p>
+<strong>voidmain443 /</strong> <a href="https://coda.io/d/_deWZu9JwjLm/Resume_sumXy">Homepage</a> / <a href="https://twitter.com/voidmain443">Twitter</a> / <a href="https://www.reddit.com/user/Voidmain443">Reddit</a> / <a href="">GitHub</a> / <a href="">blog</a> / <a href="https://stackoverflow.com/users/18416708/voidmain443">Stackoveflow</a> </pre></p>
 
 <a href="https://metrics.lecoq.io/about/voidmain443"><img src="metrics-base.svg" align="left" width="47.5%"></img></a>
 <a href="https://metrics.lecoq.io/about/voidmain443"><img src="metrics-achievements.svg" align="left" width="47.5%"></img></a>
