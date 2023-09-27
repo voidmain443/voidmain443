@@ -4,8 +4,6 @@
 </div>
 
 ### FIxing homePages  --- not done yet not official 
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="25px" width="25px">
-
 <img align="right" alt="Developer Usama Sarwar" src="images/coding.gif" width="300"/>
 
 - 😄 Pronouns me as `/Gregory/`
