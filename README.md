@@ -18,15 +18,12 @@
 - 📱 +82 
 
 ### 💡 Community Projects
-
-- [Assignmento](https://assignmento.org) `Freelancing Platform`
 - [Flutterism](https://flutterism.dev) `Flutter Dev Community`
 - [WhatsUp](https://play.google.com/store/apps/details?id=dev.usama.whatsup) `Free Discount Coupons and Offers`
 - [Alpharanker](https://play.google.com/store/apps/details?id=dev.usama.alpharanker) `Website and Social Media Profile SEO Booster`
 - [Hotspot+](https://play.google.com/store/apps/details?id=dev.usama.hotspot) `Streaming • Broadcasting • News`
 - [Bab ul Islam](https://play.google.com/store/apps/details?id=dev.usama.babulislam) `Scholar Talks • Quran • Hadees • Prayer Timings`
 
-[![Donate Now](https://img.shields.io/badge/Buy_me_a-Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/UsamaSarwar)
 
 <h2 align="center"> Let's Connect 🔥</h2>
 <div align="center">
@@ -59,14 +56,6 @@
 </div>
 
 <br><h2 align="center"> Community Projects 🚀</h2>
-
-### Assignmento | Freelancing Platform
-> <img align="right" alt="Assignmento" src="images/assignmento_.gif" height="200" />
-> Assignmento.org is one of the world's largest freelancing and crowdsourcing community and marketplace by the number of users and freelancers. Assignmento connects over a Million employers and freelancers globally from over 247 countries, regions and territories. Through our marketplace employers can hire freelancers to do work in areas such as software development, writing, data entry and design right through to engineering, the sciences, sales and marketing, accounting, legal services and many more. Freelancers are building the future on Assignmento every day, exploring their stories, celebrating their accomplishments, and finding inspiration for their own work. Assignmento.org is on the mission to build a platform that will create equal opportunities for everyone irrespective of caste, creed and nation. Our mission to create economic opportunities so people have better lives has taken us so much further. As a result, we’ve become the world’s work marketplace where everyday businesses of all sizes and independent talent from around the globe meet here to accomplish incredible things. Assignmento is focusing on building a productive ecosystem for the freelancing community. <a  href="https://play.google.com/store/apps/details?id=dev.usama.assignmento"><img align="right" src="images/googlePlay.gif" alt="Assignmento App" height="50px" /></a>As Freelancers - we strive to live out and uphold the following values individually and as a collective self-discovery, growth, commitment, respect, empowerment, legacy and inclusivity.
->
-><br>[![Website](https://img.shields.io/badge/Visit_Website-Assignmento-211F1F?logo=google-chrome&logoColor=ffffff)](https://assignmento.org)
-
-<br>
 
 ### AlShaafi | Corona Virus (COVID19) Detection App
 > <img align="right" alt="Programming" src="images/coding.png" height="200" />
@@ -134,13 +123,5 @@
 </div><br>
 <div align="center">  
 <img alt="GitHub Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=UsamaSarwar"> <br><br> 
-<img align="center" src="https://github-profile-trophy.vercel.app/?username=UsamaSarwar&margin-w=15&margin-h=15" />
 </div>
 <br>
-
-![Usama Sarwar Contributions](https://github.com/UsamaSarwar/UsamaSarwar/blob/output/github-contribution-grid-snake.svg)
-
-<p align="center">Open Source Contributor from <b>Punjab, Pakistan</b> 🇵🇰 </p>
-<div align="center"><br>
-<p><a href="https://www.buymeacoffee.com/UsamaSarwar"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="168" alt="Buy me a Coffee ☕" /></a></p>
-</div>
