@@ -4,15 +4,16 @@
 </div>
 
 ### FIxing homePages  --- not done yet not official 
-<img align="right" alt="Developer Usama Sarwar" src="images/coding.gif" width="200"/>
+<img align="right" alt="Developer Voidmain443" src="images/coding.gif" width="200"/>
 
 - 😄 Pronouns me as `/Gregory/`
-- 💻 Full-stack [Flutter](https://flutter.dev) Developer
+- 💻 Swift , Full-stack [Flutter](https://flutter.dev) Developer, React native Developer
 - 🌱 Learning **Ontology AI**
 - 🔭 Exploring `ML` in `AI`
 - ⚡ Empowering fintech Buiessness
-- 🏛 fronend developer in 
-- 🎓 BS Graduate of [Dongguk University](https://www.comsats.edu.pk/)
+- 🏛 fronend developer in metalogos
+- 🎓 BS Graduate of [Dongguk University](https://www.dongguk.edu/main)
+- M.S Researching in Complexity Economics in [Hanyang University](https://www.hanyang.ac.kr)
 - 📱 +82 
 
 
