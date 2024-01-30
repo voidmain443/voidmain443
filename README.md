@@ -19,7 +19,11 @@
 
 <h2 align="center"> Let's Connect 🔥</h2>
 
+- 추천시스템 및 그래프 neojs 파트 외주 및 문의 : paulpark@hanyang.ac.kr
 
+- 개발 및 외주 문의 parkjunha@owasp.org
+
+- 전략 컨설팅 문의 : [junha.gregory.park@whitetreeresearch.com](mailto:junha.gregory.park@whitetreeresearch.com)
 <br><h2 align="center"> Community Projects 🚀</h2>
 
 
@@ -36,9 +40,6 @@
 <!-- <p align="center"></p> -->
 <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/C_Sharp-239120?style=flat-square&logo=csharp&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/firebase-ffca28?style=flat-square&logo=firebase&logoColor=white" />
