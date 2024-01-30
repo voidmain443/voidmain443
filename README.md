@@ -69,9 +69,9 @@
 <br><h2 align="center"> GitHub Statistics 📈 </h2>
 
 <div align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=UsamaSarwar&theme=dark&hide_title=true&include_all_commits=true"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=voidmain443&theme=dark&hide_title=true&include_all_commits=true"/>
 </div><br>
 <div align="center">  
-<img alt="GitHub Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=UsamaSarwar"> <br><br> 
+<img alt="GitHub Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=voidmain443"> <br><br> 
 </div>
 <br>
