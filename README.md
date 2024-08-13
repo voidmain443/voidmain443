@@ -6,30 +6,28 @@
 ### FIxing homePages  --- not done yet not official 
 <img align="right" alt="Developer Voidmain443" src="images/coding.gif" width="200"/>
 
-- 😄 Pronouns me as `/Gregory/`
+- 😄 Pronouns me as `/Greg/`
 - 💻 Swift , Full-stack [Flutter](https://flutter.dev) Developer, React native Developer
-- 🌱 Learning **Ontology AI**
-- 🔭 Exploring `ML` in `AI`
-- ⚡ Empowering fintech Buiessness
-- 🏛 fronend developer in metalogos
+- 🌱 Learning **Ontology AI** , **Network Analysis in Economics**
+- 🏛 developer in metalogos
 - 🎓 BS Graduate of [Dongguk University](https://www.dongguk.edu/main)
-- M.S Researching in Complexity Economics in [Hanyang University](https://www.hanyang.ac.kr)
+- M.S Researching in Complexity Economics in [Hanyang University](https://www.hanyang.ac.kr) major in Artificial Intelligence. 
 - 📱 +82 
 
 
 <h2 align="center"> Let's Connect 🔥</h2>
 
-- 추천시스템 및 그래프 neojs 파트 외주 및 문의 : paulpark@hanyang.ac.kr
+- 연구 관련 문의 : paulpark@hanyang.ac.kr
+- 개발 및 외주 문의 : voidmain443@gmail.com
 
-- 개발 및 외주 문의 parkjunha@owasp.org
-
-- 전략 컨설팅 문의 : [junha.gregory.park@whitetreeresearch.com](mailto:junha.gregory.park@whitetreeresearch.com)
 <br><h2 align="center"> Community Projects 🚀</h2>
 
 
 <br><h2 align="center"> Recent Projects ⚡</h2>
 
+
 <br><h2 align="center"> Open-Source Projects ✨</h2>
+
 
 <br><h2 align="center"> Global Contributions 💻</h2>
 
