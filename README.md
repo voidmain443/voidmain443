@@ -1,61 +1,45 @@
-<div align="center">
- <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/voidmain443?style=social"> <img alt="GitHub followers" src="https://img.shields.io/github/followers/voidmain443?style=social"> 
-<!-- <a href="https://www.youtube.com/UsamaSarwar?sub_confirmation=1"><img alt="Subscribers" src="https://img.shields.io/youtube/views/jCbclWBV32o?style=social"></a> --!>
-</div>
+Hi 👋 My name is Gregory
+========================
 
-### FIxing homePages  --- not done yet not official 
-<img align="right" alt="Developer Voidmain443" src="images/coding.gif" width="200"/>
+Product Developer , ML Engineer(GNN)
+------------------------------------
 
-- 😄 Pronouns me as `/Greg/`
-- 💻 Swift , Full-stack [Flutter](https://flutter.dev) Developer, React native Developer
-- 🌱 Learning **Ontology AI** , **Network Analysis in Economics**
-- 🏛 developer in metalogos
-- 🎓 BS Graduate of [Dongguk University](https://www.dongguk.edu/main)
-- M.S Researching in Complexity Economics in [Hanyang University](https://www.hanyang.ac.kr) major in Artificial Intelligence. 
-- 📱 +82 
+Hi I
 
-
-<h2 align="center"> Let's Connect 🔥</h2>
-
-- 연구 관련 문의 : paulpark@hanyang.ac.kr
-- 개발 및 외주 문의 : voidmain443@gmail.com
-
-<br><h2 align="center"> Community Projects 🚀</h2>
-
-
-<br><h2 align="center"> Recent Projects ⚡</h2>
-
-
-<br><h2 align="center"> Open-Source Projects ✨</h2>
-
-
-<br><h2 align="center"> Global Contributions 💻</h2>
-
-
-<br><h2 align="center"> Tools & Technology 🛠</h2>
-
-<div align="center">
-<!-- <p align="center"></p> -->
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/firebase-ffca28?style=flat-square&logo=firebase&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Adobe_Photoshop-00aeff?style=flat-square&logo=Adobe%20photoshop&logoColor=white"/>
-<img src="https://img.shields.io/badge/Adobe_Illustrator-ff9900?style=flat-square&logo=Adobe-illustrator&logoColor=white" />
-<img src="https://img.shields.io/badge/Adobe_XD-FF61F6?style=flat-square&logo=Adobe%20XD&logoColor=white" />
-<br><br>
-<img align="center"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=voidmain443&theme=dark&layout=compact&langs_count=20&hide_title=true"/>
-</div>
-<br>
-
-<br><h2 align="center"> GitHub Statistics 📈 </h2>
-
-<div align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=voidmain443&theme=dark&hide_title=true&include_all_commits=true"/>
-</div><br>
-<div align="center">  
-<img alt="GitHub Streaks" src="https://github-readme-streak-stats.herokuapp.com/?user=voidmain443"> <br><br> 
-</div>
-<br>
+*   🌍  I'm based in South Korea
+*   ✉️  You can contact me at [voidmain443@gmail.com](mailto:voidmain443@gmail.com)
+*   🚀  I'm currently working on [Metalogos APP DEV Team](http://160ipo.com)
+*   🧠  I'm learning GNN, Network Analysis
+*   🤝  I'm open to collaborating on Economic Research , Product Developing### Skills 
+<p align="left">
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/swift-colored.svg" width="36" height="36" alt="Swift" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a><a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="36" height="36" alt="Rust" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a><a href="https://www.xcode.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xcode.svg" width="36" height="36" alt="XCode" /></a><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" width="36" height="36" alt="Fast API" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://supabase.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg" width="36" height="36" alt="Supabase" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a><a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" width="36" height="36" alt="PyTorch" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" /></a>
+                    </p>
+                    
+                  ### Socials
+                  
+                  
+                <p align="left">
+                      <a href="https://www.github.com/voidmain443" target="_blank" rel="noreferrer">
+                    <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
+                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
+                    </picture>
+                    </a>
+                      <a href="https://www.linkedin.com/in/junha-park-592630193/" target="_blank" rel="noreferrer">
+                    <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
+                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
+                    </picture>
+                    </a>
+                      <a href="https://www.x.com/@voidmain443" target="_blank" rel="noreferrer">
+                    <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" />
+                    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" />
+                    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" />
+                    </picture>
+                    </a></p>### Badges<b>My GitHub Stats</b><a
+                      href="http://www.github.com/voidmain443"><img src="https://github-readme-stats.vercel.app/api?username=voidmain443&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="voidmain443's GitHub stats" /></a><a
+                      href="http://www.github.com/voidmain443"><img
+                  src="https://github-readme-streak-stats.herokuapp.com/?user=voidmain443&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>### Support Me<ul style="list-style-type: none; margin: 0;"><li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.buymeacoffee.com/voidmain"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"/></a></li></ul>
