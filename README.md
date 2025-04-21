@@ -1,104 +1,58 @@
-
-<h1 align="center">
-  <br>
-  Junha Park (Gregory)
-  <br>
-  <div align="center">
-    <p>
-    MLOPS ,Full stack Developer
-    </p>
-  </div>
-</h1>
-
-## 🧑‍💻 About Me
-
-> Passionate Full Stack Developer based in South Korea, specializing in Graph Neural Networks and Economic Research. Currently working at Metalogos APP DEV Team, focusing on innovative product development and machine learning solutions.
-
 <div align="center">
+  <img src="https://avatars.githubusercontent.com/u/83549147?v=4" alt="VOIDMAIN443" width="150px" height="150px" style="border-radius: 50%;">
+  <h1>Gregory Paul WHite</h1>
+  <p>저의 오픈 코스와 멘토링을 위해 했던 자료실입니다. 모든 자료는 사용시 이메일 한통 부탁드립니다. </p>
+  <p>이 공간은 제가 제작한 다양한 학습 자료와 연구 결과들을 공유하는 곳입니다. 많은 경제학과 학부생들이 제가 혼자 삽질해온 것을 격지 않길 바라며 하나씩 제가 4차산업혁명에 적응하기 위해 했던 자료와 저의 시각을 공유하는 자리입니다.</p>
+  <br>
+</div>
+<div align="center">
+  <P>강의 및 자료문의는 이메일로 부탁드립니다. </P>
   
-[![Email](https://img.shields.io/badge/Email-voidmain443%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:voidmain443@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Junha_Park-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/junha-park-592630193/)
-[![GitHub](https://img.shields.io/badge/GitHub-voidmain443-black?style=flat-square&logo=github)](https://www.github.com/voidmain443)
-[![Twitter](https://img.shields.io/badge/Twitter-@voidmain443-blue?style=flat-square&logo=twitter)](https://www.x.com/@voidmain443)
+  [![Email](https://img.shields.io/badge/Email-voidmain443%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:voidmain443@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Junha_Park-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/junha-park-592630193/)
+  [![GitHub](https://img.shields.io/badge/GitHub-voidmain443-black?style=flat-square&logo=github)](https://www.github.com/voidmain443)
+  [![Twitter](https://img.shields.io/badge/Twitter-@voidmain443-blue?style=flat-square&logo=twitter)](https://www.x.com/@voidmain443)
 
 </div>
 
-<!--
-## 🚀 Featured Projects
 
-🚀 Featured Projects
+## 📖 ECON-K 아카이브 
 
-<table>
-<tr>
-  <th>Project Name</th>
-  <th>Technologies</th>
-  <th>Links</th>
-</tr>
-<tr>
-  <td>
-    <h3>Financial Market Analysis</h3>
-    <p>Advanced market pattern recognition system using GNN architecture for real-time financial data analysis</p>
-  </td>
-  <td>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GNN-00ADD8?style=flat-square"/>
-  </td>
-  <td>
-    <a href="https://your-notion-link-1.com">
-      <img src="https://img.shields.io/badge/Project_Details-Notion-black?style=for-the-badge&logo=notion" alt="Notion"/>
-    </a>
-    <a href="https://github.com/your-repo-1">
-      <img src="https://img.shields.io/badge/View_Code-Github-black?style=for-the-badge&logo=github" alt="GitHub"/>
-    </a>
-  </td>
-</tr>
-<tr>
-  <td>
-    <h3>Mobile Trading Application</h3>
-    <p>Cross-platform trading solution with real-time market data integration and secure transaction processing</p>
-  </td>
-  <td>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-  </td>
-  <td>
-    <a href="https://your-notion-link-2.com">
-      <img src="https://img.shields.io/badge/Project_Details-Notion-black?style=for-the-badge&logo=notion" alt="Notion"/>
-    </a>
-    <a href="https://github.com/your-repo-2">
-      <img src="https://img.shields.io/badge/View_Code-Github-black?style=for-the-badge&logo=github" alt="GitHub"/>
-    </a>
-  </td>
-</tr>
-<tr>
-  <td>
-    <h3>Economic Research Platform</h3>
-    <p>Collaborative research environment with integrated machine learning capabilities for economic analysis</p>
-  </td>
-  <td>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  </td>
-  <td>
-    <a href="https://your-notion-link-3.com">
-      <img src="https://img.shields.io/badge/Project_Details-Notion-black?style=for-the-badge&logo=notion" alt="Notion"/>
-    </a>
-    <a href="https://github.com/your-repo-3">
-      <img src="https://img.shields.io/badge/View_Code-Github-black?style=for-the-badge&logo=github" alt="GitHub"/>
-    </a>
-  </td>
-</tr>
-</table>
--->
 
-## 🛠️ Technical Skills
+<table style="width:100%;">
+  <tr>
+     <td style="width:30%; vertical-align:top;">
+        <a href="https://voidmain443.github.io/ECONO_000/">
+          <img src="https://voidmain443.github.io/ECONO_000/cover.png" alt="경제학과를 위한 파이썬 기초" style="width:250px; height:250px;">
+        </a>
+    </td>
+    <td style="width:70%; padding-left:20px;">
+      <h3><a href="https://voidmain443.github.io/ECONO_000/">경제학과를 위한 파이썬 기초</a></h3>
+      <p>[경제학과 0학년 친구들을 위한 파이썬 기초 과정]</p>
+      <p> 경제학과 4년간 쓰일 여러분의 경제식들의 계산과 시각화 그리고 figure를 책임져줄 파이썬의 기초를 8주 과정동안 함께합니다. google Colab과 함께 파이썬의 기초를 다질 수 있는 시간이 되길 기대합니다. </p>
+      <p> 아직 경제학계에서는 STATA나 SPSS 관련 통계와 통계자료가 많지만 공공테이터 포털과 각종 빅데이터 시대에 맞게 다양한 데이터 형식과 데이터를 자기의 논리에 맞게 뽑아내는 과정이 필요합니다. 수요 공급모델에 대한 기본적인 그래프 이동을 그릴 수 있고, 또한 파이썬의 자료형, 반복문 등을 이런 수요 공급곡선을 그려나가는 도중에 모듈 패키지화 까지 해보는 과정을 통해서 손에 익히는 과정으로 제작되었습니다.  </p>
+    </td>
+  </tr>
+  </table>
+
+---
+## 제작중 
+각 경제학 각론 및 세부 자료들을 차근히 올라갈 예정입니다. 
+
+<p> 1학년 : 경제학원론, LaTex 작성법, 경제학 자료 접근법, 경제수학 입문, 경제통계학 입문 , 경영학 각론 , 논리학 기초   </p>
+<p> 2학년 : 경제철학사, 미시경제각론, 거시경제각론, 데이터수집과 통계분석, 통계 모델링과 경제문제, 통계학, 미분방정식, 선형대수학 , 미적분학, 해석학</p>
+<p> 3학년 : 미시- 노동, 미시- 게임이론, 미시각론들, 재정학, 거시각론-회폐,금융,국제금융, 법경제학, WTO 협정 및 경제법, 국제통계, 계량경제학, 수리경제학 </p>
+<p> 4학년 : 생산경제학, 산업조직론, 네트워크 경제학, 가치평가론, 감정평가론, 위협과 리스크, 증권 투자론, 시계열 분석,경제논리 및 각국 시장경제, 경제논문바로쓰기, 국가 패널조사 기초, 실시간 경제 데이터 대시보드 구축 프로젝트(PBL) </p>
+
+---
+
+## 🔬 연구 및 경제학 이외 아카이브 
+
+
+
+---
+
+### 🛠️ 기술 스택
 
 ### 🧠 Machine Learning & GNN
 ![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python)
@@ -138,27 +92,6 @@
 
 
 
-## 📊 Skills Matrix
-
-```mermaid
-  quadrantChart
-      title Technical Expertise Matrix
-      x-axis Beginner --> Advanced
-      y-axis Tools --> Core Technologies
-      quadrant-1 Learning
-      quadrant-2 Core Skills
-      quadrant-3 Support Tools
-      quadrant-4 Expertise
-      Python/ML: [0.85, 0.90]
-      PyTorch/GNN: [0.65, 0.85]
-      TypeScript/React: [0.70, 0.60]
-      Backend Django: [0.75, 0.70]
-      Cloud Services: [0.65, 0.50]
-      Databases: [0.70, 0.65]
-      Data Visualization: [0.65, 0.55]
-      Infrastructure: [0.60, 0.50]
-```
-
 
 
 ## 📈 GitHub Stats
@@ -178,5 +111,3 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/voidmain)
 
 </div>
-
-<img src="https://private-user-images.githubusercontent.com/74038190/238353480-219bcc70-f5dc-466b-9a60-29653d8e8433.gif" width="100%" height="50" alt="footer"/>
