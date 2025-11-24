@@ -1,113 +1,167 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/83549147?v=4" alt="VOIDMAIN443" width="150px" height="150px" style="border-radius: 50%;">
-  <h1>Gregory Paul WHite</h1>
-  <p>저의 오픈 코스와 멘토링을 위해 했던 자료실입니다. 모든 자료는 사용시 이메일 한통 부탁드립니다. </p>
-  <p>이 공간은 제가 제작한 다양한 학습 자료와 연구 결과들을 공유하는 곳입니다. 많은 경제학과 학부생들이 제가 혼자 삽질해온 것을 격지 않길 바라며 하나씩 제가 4차산업혁명에 적응하기 위해 했던 자료와 저의 시각을 공유하는 자리입니다.</p>
-  <br>
-</div>
-<div align="center">
-  <P>강의 및 자료문의는 이메일로 부탁드립니다. </P>
+  <img src="https://avatars.githubusercontent.com/u/83549147?v=4" alt="Profile" width="150px" height="150px" style="border-radius: 50%; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
   
-  [![Email](https://img.shields.io/badge/Email-voidmain443%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:voidmain443@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Junha_Park-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/junha-park-592630193/)
-  [![GitHub](https://img.shields.io/badge/GitHub-voidmain443-black?style=flat-square&logo=github)](https://www.github.com/voidmain443)
-  [![Twitter](https://img.shields.io/badge/Twitter-@voidmain443-blue?style=flat-square&logo=twitter)](https://www.x.com/@voidmain443)
+  <br/>
+  <br/>
 
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Gregory+Paul+White;AI+%26+Network+Science+Researcher;Economist;Building+Digital+Commons+for+Econ" alt="Typing SVG" />
+  </a>
+
+  <h3 style="color: #555;">Bridging Economics with Computational Science</h3>
+
+  <p width="80%" style="font-size: 16px; line-height: 1.6; color: #333;">
+    Welcome to my <b>Open Archive</b>. <br>
+    I am a researcher transitioning from <b>Economics</b> to <b>AI & Network Science</b>.<br>
+    This repository is dedicated to sharing the learning curve I navigated to adapt to the 4th Industrial Revolution,<br>
+    hoping to serve as a compass for future economists and interdisciplinary researchers.
+  </p>
+
+  <div style="margin-top: 15px;">
+    <a href="mailto:voidmain443@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://www.linkedin.com/in/junha-park-592630193/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://www.github.com/voidmain443"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+    <a href="https://www.x.com/@voidmain443"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"/></a>
+  </div>
 </div>
 
+<br/>
+<br/>
 
-## 📖 ECON-K 아카이브 
+## 📚 Featured Course: ECON-K
+> **Python Fundamentals for Undergraduate Economists**
 
-
-<table style="width:100%;">
+<table>
   <tr>
-     <td style="width:30%; vertical-align:top;">
-        <a href="https://voidmain443.github.io/ECONO_000/">
-          <img src="https://voidmain443.github.io/ECONO_000/cover.png" alt="경제학과를 위한 파이썬 기초" style="width:250px; height:250px;">
+    <td width="70%" style="padding: 15px; vertical-align: top; border: none;">
+      <h3 style="margin-bottom: 5px;">
+        <a href="https://voidmain443.github.io/ECONO_000/" style="text-decoration: none; color: #3776AB;">
+          🐍 Python for Economists (ECON-K)
         </a>
+      </h3>
+      <p style="color: #666; margin-bottom: 15px;">
+        <i>"From basic syntax to supply/demand visualization."</i>
+      </p>
+      <p style="font-size: 14px; line-height: 1.6;">
+        This course is designed to bridge the gap between traditional economic theory and modern data science. 
+        It moves beyond STATA/SPSS, empowering students to handle public data and visualize economic models using <b>Python & Pandas</b>.
+      </p>
+      <ul style="font-size: 14px; color: #444;">
+        <li><b>Target:</b> Freshman Economics Majors (No coding experience required)</li>
+        <li><b>Curriculum:</b> 8-Week Intensive Course</li>
+        <li><b>Key Skill:</b> Logic building, Data Visualization, Market Modeling</li>
+      </ul>
     </td>
-    <td style="width:70%; padding-left:20px;">
-      <h3><a href="https://voidmain443.github.io/ECONO_000/">경제학과를 위한 파이썬 기초</a></h3>
-      <p>[경제학과 0학년 친구들을 위한 파이썬 기초 과정]</p>
-      <p> 경제학과 4년간 쓰일 여러분의 경제식들의 계산과 시각화 그리고 figure를 책임져줄 파이썬의 기초를 8주 과정동안 함께합니다. google Colab과 함께 파이썬의 기초를 다질 수 있는 시간이 되길 기대합니다. </p>
-      <p> 아직 경제학계에서는 STATA나 SPSS 관련 통계와 통계자료가 많지만 공공테이터 포털과 각종 빅데이터 시대에 맞게 다양한 데이터 형식과 데이터를 자기의 논리에 맞게 뽑아내는 과정이 필요합니다. 수요 공급모델에 대한 기본적인 그래프 이동을 그릴 수 있고, 또한 파이썬의 자료형, 반복문 등을 이런 수요 공급곡선을 그려나가는 도중에 모듈 패키지화 까지 해보는 과정을 통해서 손에 익히는 과정으로 제작되었습니다.  </p>
+  
+  </tr>
+</table>
+
+<br/>
+
+## 🗺️ Academic Roadmap & Archive
+> A curated path from foundational economics to advanced computational research. <br>
+> *Materials are being archived using **Quarto** and **JupyterBook**.*
+
+<table>
+  <thead>
+    <tr style="background-color: #f6f8fa;">
+      <th width="12%" align="center">Phase</th>
+      <th width="18%" align="center">Level</th>
+      <th width="70%" align="left">Key Subjects & Modules</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">🌱 <b>Freshman</b></td>
+      <td align="center"><b>Foundation</b><br><small>Tools & Literacy</small></td>
+      <td>
+        <code>Principles of Economics</code> <code>Academic Writing with LaTeX</code> <br>
+        <code>Intro to Math for Economists</code> <code>Economic Statistics</code> <br>
+        <code>Logic & Critical Thinking</code> <code>Business Administration Overview</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">🌿 <b>Sophomore</b></td>
+      <td align="center"><b>Core Theory</b><br><small>Modeling & Analysis</small></td>
+      <td>
+        <code>Micro/Macroeconomic Theory</code> <code>History of Economic Thought</code><br>
+        <code>Data Collection & Analysis</code> <code>Statistical Modeling</code> <br>
+        <code>Linear Algebra</code> <code>Calculus</code> <code>Real Analysis</code> <code>Differential Equations</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">🌳 <b>Junior</b></td>
+      <td align="center"><b>Advanced</b><br><small>Applied Economics</small></td>
+      <td>
+        <code>Labor Economics</code> <b><code>Game Theory</code></b> <code>Public Finance</code><br>
+        <code>Monetary Economics</code> <code>Int'l Finance</code> <code>Law & Economics</code><br>
+        <code>Econometrics</code> <code>Mathematical Economics</code> <code>WTO Agreements</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">🍎 <b>Senior</b></td>
+      <td align="center"><b>Frontier</b><br><small>Research & Integration</small></td>
+      <td>
+        <b><code>Network Economics</code></b> <code>Industrial Organization</code> <code>Time-Series Analysis</code><br>
+        <code>Production Economics</code> <code>Valuation & Risk Management</code> <br>
+        ✨ <b>PBL: Real-time Economic Dashboard & Thesis Writing</b>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+## 🛠️ Technical Arsenal
+
+<table>
+  <tr>
+    <th width="25%" align="center">Field</th>
+    <th width="75%" align="left">Stack</th>
+  </tr>
+  <tr>
+    <td align="center"><b>🧠 AI & <br>Network Science</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NetworkX-Graph_Theory-013243?style=flat-square&logo=graph&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NumPy-Scientific-013243?style=flat-square&logo=numpy&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Pandas-Analytics-150458?style=flat-square&logo=pandas&logoColor=white"/>
     </td>
   </tr>
-  </table>
+  <tr>
+    <td align="center"><b>📚 Documentation<br>& Publishing</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Jupyter_Book-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Quarto-447099?style=flat-square&logo=quarto&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LaTeX-Academic-008080?style=flat-square&logo=latex&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>💻 Backend & <br>DevOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
----
-## 제작중 
-각 경제학 각론 및 세부 자료들을 차근히 올라갈 예정입니다. 
+<br/>
 
-<p> 1학년 : 경제학원론, LaTex 작성법, 경제학 자료 접근법, 경제수학 입문, 경제통계학 입문 , 경영학 각론 , 논리학 기초   </p>
-<p> 2학년 : 경제철학사, 미시경제각론, 거시경제각론, 데이터수집과 통계분석, 통계 모델링과 경제문제, 통계학, 미분방정식, 선형대수학 , 미적분학, 해석학</p>
-<p> 3학년 : 미시- 노동, 미시- 게임이론, 미시각론들, 재정학, 거시각론-회폐,금융,국제금융, 법경제학, WTO 협정 및 경제법, 국제통계, 계량경제학, 수리경제학 </p>
-<p> 4학년 : 생산경제학, 산업조직론, 네트워크 경제학, 가치평가론, 감정평가론, 위협과 리스크, 증권 투자론, 시계열 분석,경제논리 및 각국 시장경제, 경제논문바로쓰기, 국가 패널조사 기초, 실시간 경제 데이터 대시보드 구축 프로젝트(PBL) </p>
-
----
-
-## 🔬 연구 및 경제학 이외 아카이브 
-
-
-
----
-
-### 🛠️ 기술 스택
-
-### 🧠 Machine Learning & GNN
-![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=flat-square&logo=pytorch)
-![NumPy](https://img.shields.io/badge/NumPy-Intermediate-013243?style=flat-square&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-Intermediate-150458?style=flat-square&logo=pandas)
-![Streamlit](https://img.shields.io/badge/Streamlit-Intermediate-FF4B4B?style=flat-square&logo=streamlit)
-![Plotly](https://img.shields.io/badge/Plotly-Intermediate-3F4F75?style=flat-square&logo=plotly)
-![NetworkX](https://img.shields.io/badge/NetworkX-Intermediate-013243?style=flat-square)
-
-### 💻 Full Stack Development
-#### Frontend
-![TypeScript](https://img.shields.io/badge/TypeScript-Intermediate-3178C6?style=flat-square&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-Intermediate-F7DF1E?style=flat-square&logo=javascript)
-![React](https://img.shields.io/badge/React-Intermediate-61DAFB?style=flat-square&logo=react)
-![Figma](https://img.shields.io/badge/Figma-Beginner-F24E1E?style=flat-square&logo=figma)
-
-#### Backend
-![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python)
-![Go](https://img.shields.io/badge/Go-Intermediate-00ADD8?style=flat-square&logo=go)
-![Django](https://img.shields.io/badge/Django-Intermediate-092E20?style=flat-square&logo=django)
-![FastAPI](https://img.shields.io/badge/FastAPI-Intermediate-009688?style=flat-square&logo=fastapi)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Intermediate-326CE5?style=flat-square&logo=kubernetes)
-![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat-square&logo=docker)
-
-#### Database
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Intermediate-4169E1?style=flat-square&logo=postgresql)
-![Oracle](https://img.shields.io/badge/Oracle-Intermediate-F80000?style=flat-square&logo=oracle)
-![Supabase](https://img.shields.io/badge/Supabase-Intermediate-3FCF8E?style=flat-square&logo=supabase)
-
-### ☁️ Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-Intermediate-232F3E?style=flat-square&logo=amazon-aws)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-Intermediate-4285F4?style=flat-square&logo=google-cloud)
-![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat-square&logo=docker)
-![Linux](https://img.shields.io/badge/Linux-Intermediate-FCC624?style=flat-square&logo=linux)
-
-
-
-
-
-
-## 📈 GitHub Stats
-
+## 📈 Research Activity
 <div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=voidmain443&theme=dark&hide_border=true)](https://github.com/voidmain443)
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=voidmain443&theme=dark&hide_border=true&stroke=3776AB&background=0D1117&ring=3776AB&fire=3776AB&currStreakLabel=3776AB" alt="GitHub Streak" />
 </div>
 
+<br/>
+
 ## 🤝 Connect & Support
-
 <div align="center">
-
-> Open to collaboration on ML & FinTech projects. Reach out for professional inquiries or innovative tech solutions.
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/voidmain)
-
+  <p>Open to collaboration on <b>ML, Network Analysis & FinTech</b> projects.</p>
+  <a href="https://www.buymeacoffee.com/voidmain">
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support_Research-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+  </a>
 </div>
