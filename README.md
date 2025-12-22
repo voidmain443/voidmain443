@@ -33,9 +33,9 @@
 
 <table>
   <tr>
-    <td width="70%" style="padding: 15px; vertical-align: top; border: none;">
+    <td width="80%" style="padding: 15px; vertical-align: top; border: none;">
       <h3 style="margin-bottom: 5px;">
-        <a href="https://voidmain443.github.io/ECONO_000/" style="text-decoration: none; color: #3776AB;">
+        <a href="https://voidmain443.github.io/jbeconsample/" style="text-decoration: none; color: #3776AB;">
           🐍 Python for Economists (ECON-K)
         </a>
       </h3>
@@ -50,6 +50,27 @@
         <li><b>Target:</b> Freshman Economics Majors (No coding experience required)</li>
         <li><b>Curriculum:</b> 8-Week Intensive Course</li>
         <li><b>Key Skill:</b> Logic building, Data Visualization, Market Modeling</li>
+      </ul>
+    </td>
+  
+  </tr>
+    <tr>
+    <td width="70%" style="padding: 15px; vertical-align: top; border: none;">
+      <h3 style="margin-bottom: 5px;">
+        <a href="https://voidmain443.github.io/ECONO_000/" style="text-decoration: none; color: #3776AB;">
+          Principle of Economics lecture note
+        </a>
+      </h3>
+      <p style="color: #666; margin-bottom: 15px;">
+        <i>"Principle of Economic Lecture note with real data and recent Issues."</i>
+      </p>
+      <p style="font-size: 14px; line-height: 1.6;">
+        This course is Designed for Basic economic study for the Undergrade Student Principle of Economics with classical way and the Data Driven way in Korea.  
+      </p>
+      <ul style="font-size: 14px; color: #444;">
+        <li><b>Target:</b> Freshman Economics Majors (No coding experience required)</li>
+        <li><b>Curriculum:</b> 12-Week Intensive Course</li>
+        <li><b>Key Skill:</b> Understadning in the Problems and Logics in the Economic area </li>
       </ul>
     </td>
   
