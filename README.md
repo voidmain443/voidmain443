@@ -4,10 +4,6 @@
   <br/>
   <br/>
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Gregory+Paul+White;AI+%26+Network+Science+Researcher;Economist;Building+Digital+Commons+for+Econ" alt="Typing SVG" />
-  </a>
-
   <h3 style="color: #555;">Bridging Economics with Computational Science</h3>
 
   <p width="80%" style="font-size: 16px; line-height: 1.6; color: #333;">
