@@ -31,7 +31,7 @@
   <tr>
     <td width="80%" style="padding: 15px; vertical-align: top; border: none;">
       <h3 style="margin-bottom: 5px;">
-        <a href="https://voidmain443.github.io/jbeconsample/" style="text-decoration: none; color: #3776AB;">
+        <a href="https://voidmain443.github.io/ECONO_000/" style="text-decoration: none; color: #3776AB;">
           🐍 Python for Economists (ECON-K)
         </a>
       </h3>
@@ -53,7 +53,7 @@
     <tr>
     <td width="70%" style="padding: 15px; vertical-align: top; border: none;">
       <h3 style="margin-bottom: 5px;">
-        <a href="https://voidmain443.github.io/ECONO_000/" style="text-decoration: none; color: #3776AB;">
+        <a href="https://voidmain443.github.io/jbeconsample/" style="text-decoration: none; color: #3776AB;">
           Principle of Economics lecture note
         </a>
       </h3>
