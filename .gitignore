@@ -3,3 +3,6 @@ _preview.html
 
 __pycache__/
 *.pyc
+
+# generated README drafts and the local preview
+drafts/

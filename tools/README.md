@@ -76,3 +76,24 @@ On Debian or Ubuntu:
 ```bash
 sudo apt install fonts-noto-cjk fonts-dejavu-core
 ```
+
+## The README itself
+
+`profile_readme.py` holds the content tables (blog card, projects, textbooks by department,
+archives, journal) and renders the README drafts; `capture.py` takes the site captures and GIFs
+the drafts reference.
+
+```bash
+cd tools
+python capture.py linalg2 https://voidmain443.github.io/linear_algebra_foundation_book/   # -> ../img/shots/linalg2.jpg
+python capture.py --gif econmap https://.../index.html https://.../map.html               # -> ../img/shots/econmap.gif
+python profile_readme.py             # -> ../drafts/README-merged.md (+ A and F)
+python profile_readme.py --final M   # -> ../README.md (M = merged, or A | F)
+```
+
+Adding a textbook: one row in `BOOKS`, one capture, one row in `curriculum.py`, then run all
+three scripts. Adding a project: one row in `PROJ` plus its GIF. A journal entry is one row at
+the top of `JOURNAL`; rows beyond `JOURNAL_VISIBLE` fold automatically.
+
+Link policy: private repositories are never linked, only their public Pages sites. The blog is
+described as a blog, never as its engine.
