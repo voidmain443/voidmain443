@@ -147,6 +147,98 @@ def fig_supply_demand():
     return "".join(o)
 
 
+def fig_spectral():
+    """An ellipse with its two principal axes over a faint grid: the unit circle under a symmetric map."""
+    o = []
+    cx, cy = 230, 313
+    for i in range(-4, 5):
+        o.append(f'<line x1="{cx+i*38}" y1="206" x2="{cx+i*38}" y2="420" stroke="#fff" stroke-width="0.7" opacity="0.16"/>')
+    for j in range(-3, 4):
+        o.append(f'<line x1="70" y1="{cy+j*36}" x2="390" y2="{cy+j*36}" stroke="#fff" stroke-width="0.7" opacity="0.16"/>')
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="52" fill="none" stroke="#fff" stroke-width="1" opacity="0.35" stroke-dasharray="4 4"/>')
+    o.append(f'<ellipse cx="{cx}" cy="{cy}" rx="128" ry="62" transform="rotate(-28 {cx} {cy})" fill="#fff" fill-opacity="0.10" stroke="#fff" stroke-width="2.2" opacity="0.95"/>')
+    ax, ay = cx + 128 * math.cos(math.radians(-28)), cy + 128 * math.sin(math.radians(-28))
+    bx, by = cx + 62 * math.cos(math.radians(62)), cy + 62 * math.sin(math.radians(62))
+    for (x, y) in ((ax, ay), (bx, by)):
+        o.append(f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="#fff" stroke-width="2" opacity="0.9"/>')
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.5" fill="#fff" opacity="0.95"/>')
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="3.5" fill="#fff" opacity="0.95"/>')
+    return "".join(o)
+
+
+def fig_envelope():
+    """A family of tangent lines whose envelope is the value function: the envelope theorem, drawn."""
+    o = []
+    x0, y0, w, h = 78, 206, 304, 218
+    base = y0 + h - 18
+
+    def v(t):
+        return base - (h - 40) * (0.15 + 0.85 * (1 - (1 - t) ** 2.2))
+
+    n = 9
+    for i in range(n):
+        t = (i + 0.5) / n
+        x = x0 + t * w
+        y = v(t)
+        dt = 1e-3
+        slope = (v(t + dt) - v(t - dt)) / (2 * dt * w)
+        L = 150
+        dx = L / math.sqrt(1 + slope * slope)
+        o.append(f'<line x1="{x-dx:.1f}" y1="{y-slope*dx:.1f}" x2="{x+dx:.1f}" y2="{y+slope*dx:.1f}" stroke="#fff" stroke-width="0.9" opacity="0.38"/>')
+    pts = " ".join(f"{x0+w*k/60:.1f},{v(k/60):.1f}" for k in range(61))
+    o.append(f'<polyline points="{pts}" fill="none" stroke="#fff" stroke-width="2.6" opacity="0.95" stroke-linejoin="round"/>')
+    tx = x0 + 0.62 * w
+    o.append(f'<circle cx="{tx:.1f}" cy="{v(0.62):.1f}" r="5.5" fill="#fff" opacity="0.95"/>')
+    o.append(f'<line x1="{x0}" y1="{base}" x2="{x0+w}" y2="{base}" stroke="#fff" stroke-width="1" opacity="0.4"/>')
+    return "".join(o)
+
+
+def fig_block():
+    """An Oracle data block: header, row directory growing down, rows growing up from the foot."""
+    o = []
+    x0, y0, w, h = 96, 200, 268, 226
+    o.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" rx="3" fill="none" stroke="#fff" stroke-width="2" opacity="0.9"/>')
+    o.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="26" fill="#fff" fill-opacity="0.22"/>')
+    o.append(f'<line x1="{x0}" y1="{y0+26}" x2="{x0+w}" y2="{y0+26}" stroke="#fff" stroke-width="1.2" opacity="0.7"/>')
+    for i in range(4):
+        y = y0 + 36 + i * 14
+        o.append(f'<rect x="{x0+12}" y="{y}" width="{w-24}" height="9" fill="#fff" fill-opacity="0.35"/>')
+    o.append(f'<line x1="{x0+12}" y1="{y0+108}" x2="{x0+w-12}" y2="{y0+108}" stroke="#fff" stroke-width="0.9" opacity="0.4" stroke-dasharray="3 4"/>')
+    widths = [0.9, 0.62, 0.78, 0.5, 0.86]
+    for i, f in enumerate(widths):
+        rw = (w - 24) * f
+        y = y0 + h - 14 - i * 18
+        o.append(f'<rect x="{x0+w-12-rw:.1f}" y="{y}" width="{rw:.1f}" height="12" fill="none" stroke="#fff" stroke-width="1.1" opacity="0.85"/>')
+    o.append(f'<path d="M {x0+w+22} {y0+34} L {x0+w+22} {y0+96} M {x0+w+17} {y0+90} L {x0+w+22} {y0+97} L {x0+w+27} {y0+90}" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.6"/>')
+    o.append(f'<path d="M {x0+w+22} {y0+h-8} L {x0+w+22} {y0+h-88} M {x0+w+17} {y0+h-82} L {x0+w+22} {y0+h-89} L {x0+w+27} {y0+h-82}" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.6"/>')
+    return "".join(o)
+
+
+def fig_lineage():
+    """Papers as dots on a time axis in three lineage bands, joined by genealogy curves."""
+    o = []
+    x0, y0, w, h = 70, 206, 320, 218
+    bands = [y0 + 40, y0 + 112, y0 + 184]
+    for by in bands:
+        o.append(f'<rect x="{x0}" y="{by-22}" width="{w}" height="44" fill="#fff" fill-opacity="0.07"/>')
+        o.append(f'<line x1="{x0}" y1="{by}" x2="{x0+w}" y2="{by}" stroke="#fff" stroke-width="0.8" opacity="0.3"/>')
+    dots = [(0, 0.08), (0, 0.32), (0, 0.55), (0, 0.8), (1, 0.2), (1, 0.44), (1, 0.66), (1, 0.9), (2, 0.14), (2, 0.5), (2, 0.72), (2, 0.94)]
+    canon = {(0, 0.32), (1, 0.44), (2, 0.5), (1, 0.9)}
+    P = {d: (x0 + 14 + d[1] * (w - 28), bands[d[0]]) for d in dots}
+    links = [((0, 0.08), (0, 0.32)), ((0, 0.32), (1, 0.44)), ((1, 0.2), (1, 0.44)), ((1, 0.44), (2, 0.5)), ((0, 0.55), (1, 0.66)), ((2, 0.14), (2, 0.5)), ((1, 0.66), (1, 0.9)), ((2, 0.5), (2, 0.72)), ((0, 0.8), (1, 0.9)), ((2, 0.72), (2, 0.94))]
+    for a, b in links:
+        (ax, ay), (bx, by) = P[a], P[b]
+        mx = (ax + bx) / 2
+        o.append(f'<path d="M {ax:.1f} {ay:.1f} C {mx:.1f} {ay:.1f} {mx:.1f} {by:.1f} {bx:.1f} {by:.1f}" fill="none" stroke="#fff" stroke-width="1.1" opacity="0.45"/>')
+    for d, (x, y) in P.items():
+        if d in canon:
+            o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="none" stroke="#fff" stroke-width="1.6" opacity="0.9"/>')
+            o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.6" fill="#fff" opacity="0.95"/>')
+        else:
+            o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="#fff" opacity="0.85"/>')
+    return "".join(o)
+
+
 # ------------------------------------------------------------------ books
 BOOKS = [
     dict(key="premath", dept="MATH", code="MATH 100",
@@ -167,6 +259,18 @@ BOOKS = [
     dict(key="econ101", dept="ECON", code="ECON 101",
          ko="경제학원론", en="Principles of economics",
          meta="15 chapters · 4 parts", tech="MyST · open data", status="PUBLISHED", fig=fig_supply_demand),
+    dict(key="linalg2", dept="MATH", code="MATH 211",
+         ko="선형대수학, 다시 깊게", en="Linear algebra, again and deeper",
+         meta="60 chapters · 9 parts · 45 weeks", tech="Jupyter Book · NumPy", status="IN PROGRESS", fig=fig_spectral),
+    dict(key="eqdiary", dept="ECON", code="ECON 510",
+         ko="식 일기", en="Understanding world on equation",
+         meta="24 weeks · math camp", tech="MyST · notebooks", status="IN PROGRESS", fig=fig_envelope),
+    dict(key="econmap", dept="ECON", code="ECON 301 · ARCHIVE",
+         ko="계량경제학 아카이브", en="Papers behind the textbooks",
+         meta="298 papers · 189 chapters · 10 books", tech="static site · Obsidian vault", status="PUBLISHED", fig=fig_lineage),
+    dict(key="builddb", dept="AI", code="AI 105",
+         ko="DB 직접 만들기", en="Oracle, rebuilt in Python",
+         meta="19 units · 3 volumes · 10,980 lines", tech="React book · pytest", status="PUBLISHED", fig=fig_block),
 ]
 
 
@@ -207,5 +311,5 @@ if __name__ == "__main__":
     for b in BOOKS:
         svg = build(b)
         p = os.path.join(out, f"cover-{b['key']}.svg")
-        open(p, "w").write(svg)
+        open(p, "w", encoding="utf-8").write(svg)
         print(f"{p}  {len(svg)/1024:.1f} KB")

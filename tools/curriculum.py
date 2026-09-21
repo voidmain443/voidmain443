@@ -13,6 +13,7 @@ LANES = [
         ("MATH 150", "Proof and Logic",     "증명법",        2, "pub",  "base"),
         ("MATH 101", "Calculus",            "미적분학",      2, "wip",  "ug"),
         ("MATH 110", "Linear Algebra",      "선형대수학",    2, "pub",  "ug"),
+        ("MATH 211", "Linear Algebra II",   "선형대수학 심화", 3, "wip",  "ug"),
         ("MATH 120", "Probability & Stats", "확률통계",      3, "plan", "ug"),
         ("MATH 201", "Real Analysis",       "해석학",        3, "wip",  "ug"),
         ("MATH 210", "Differential Eqns",   "미분방정식",    3, "plan", "ug"),
@@ -55,8 +56,9 @@ LANES = [
     ]),
     ("AI", "인공지능", [
         ("AI 100", "SQL Professional",     "SQL 전문가",     2, "wip",  "base"),
-        ("AI 200", "AI-Assisted Study",    "AI 활용 학습",   2, "plan", "base"),
-        ("AI 110", "Data Analysis",        "판다스 분석",    3, "plan", "base"),
+        ("AI 105", "Build a Database",     "DB 직접 만들기", 2, "pub",  "base"),
+        ("AI 200", "Generative AI",        "생성형 AI",      2, "pub",  "base"),
+        ("AI 110", "Data Analysis",        "판다스 분석",    3, "wip",  "base"),
         ("AI 301", "Machine Learning",     "머신러닝",       4, "plan", "ug"),
         ("AI 310", "Deep Learning",        "딥러닝",         5, "plan", "ug"),
         ("AI 520", "Reinforcement Learning", "강화학습",     5, "plan", "grad"),
@@ -70,7 +72,8 @@ EDGES = [  # (src, dst) inside one department; always left to right
     ("MATH 100", "MATH 150"), ("MATH 100", "MATH 101"), ("MATH 100", "MATH 110"),
     ("MATH 101", "MATH 120"), ("MATH 150", "MATH 201"), ("MATH 101", "MATH 210"),
     ("MATH 150", "MATH 230"),
-    ("MATH 101", "MATH 220"), ("MATH 110", "MATH 240"), ("MATH 110", "MATH 260"),
+    ("MATH 110", "MATH 211"),
+    ("MATH 101", "MATH 220"), ("MATH 211", "MATH 240"), ("MATH 211", "MATH 260"),
     ("MATH 201", "MATH 301"), ("MATH 201", "MATH 320"),
     ("MATH 301", "MATH 310"), ("MATH 301", "MATH 330"),
 
@@ -87,13 +90,13 @@ EDGES = [  # (src, dst) inside one department; always left to right
     ("NETS 310", "NETS 510"),
     ("NETS 301", "NETS 410"), ("NETS 510", "NETS 520"), ("NETS 320", "NETS 530"),
 
-    ("AI 100", "AI 110"), ("AI 110", "AI 301"),
+    ("AI 100", "AI 110"), ("AI 105", "AI 110"), ("AI 110", "AI 301"),
     ("AI 301", "AI 310"), ("AI 301", "AI 520"),
     ("AI 310", "AI 410"), ("AI 310", "AI 501"), ("AI 301", "AI 530"),
 ]
 
 CROSS = [  # dashed, cross-department
-    ("MATH 110", "ECON 510"),
+    ("MATH 211", "ECON 510"),
     ("MATH 110", "NETS 201"),
     ("MATH 120", "ECON 301"),
     ("MATH 120", "NETS 310"),
