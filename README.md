@@ -41,6 +41,16 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <table>
 <tr>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/production-atlas/"><img src="img/shots/atlas.gif" alt="생산의 해부학 · The Production Atlas"/></a>
+<h4><a href="https://voidmain443.github.io/production-atlas/">생산의 해부학 · The Production Atlas</a> <sub>생산함수 추정 문헌의 인터랙티브 아틀라스</sub></h4>
+<p>보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.</p>
+<p><sub><a href="https://voidmain443.github.io/production-atlas/">본문</a> · <a href="https://voidmain443.github.io/production-atlas/atlas.html">논문 아틀라스</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/D3-F9A03C?style=flat-square&logo=d3&logoColor=white" alt="D3"/> <img src="https://img.shields.io/badge/KaTeX-1a4f7a?style=flat-square" alt="KaTeX"/></p></td>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/"><img src="img/shots/ftm.gif" alt="Follow the Metrics for PM"/></a>
+<h4><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/">Follow the Metrics for PM</a> <sub>숫자를 읽고, 다음 결정을 설명하는 힘</sub></h4>
+<p>지표의 역사와 측정 방법을 제품의 판단으로 잇는 인터랙티브 교재. 본문 24장과 장별 연습문제 해설, 65개 지표 · 측정 방법 요약집. 분모 · 시간 · 비용 · 비교 조건을 바꿔 가며 직접 계산해 본다.</p>
+<p><sub><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/">첫 장</a> · <a href="https://voidmain443.github.io/follow_the_metrics_for_PM/materials/">지표 사전</a></sub><br/><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><a href="https://voidmain443.github.io/econometrics-map/"><img src="img/shots/econmap.gif" alt="Econometrics Archive"/></a>
 <h4><a href="https://voidmain443.github.io/econometrics-map/">Econometrics Archive</a> <sub>교과서 뒤의 논문들</sub></h4>
 <p>교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.</p>
@@ -95,6 +105,7 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 - **[경제학과 1학년을 위한 파이썬 (2판) · Python for Economists](https://voidmain443.github.io/ECONO_000/)** — from variables and loops to supply-and-demand models in Matplotlib; second edition rewritten from a semester of student feedback.<br/><sub>`ECON 100` · 8 weeks · 11 chapters · ●</sub>
 - **[경제학원론 · Principles of Economics](https://voidmain443.github.io/economic_principle_book/)** — taught against open data (Maddison, World Bank, OWID, Penn World Table) instead of drawn diagrams.<br/><sub>`ECON 101` · 15 chapters · 4 parts · ●</sub>
 - **[식 일기 · Understanding World on Equation](https://voidmain443.github.io/Equation_diary/)** — a math camp on reading, not solving: what each symbol names, which assumption each line leans on, where undergraduate and graduate readings part ways.<br/><sub>`ECON 510` · 24 weeks · 3 parts · ◐</sub>
+- **FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리 · Financial Risk, assembled from scratch** — build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility.<br/><sub>`ECON 640` · 73 sessions · 5 semesters · ◐</sub>
 
 <details><summary><sub>전체 계획 · planned volumes in ECON</sub></summary><br/><sub>ECON 201 미시 · ECON 202 거시 · ECON 301 계량 · ECON 311 게임이론 · ECON 320 산업조직 · ECON 401 시계열 · ECON 520 수리경제 · ECON 601/602 미시·거시이론 · ECON 610 계량이론 · ECON 620 계산경제학 · ECON 630 금융경제학</sub></details>
 
@@ -111,7 +122,7 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 - **[Oracle 을 파이썬으로 처음부터 만들며 이해하기 · Build a Database](https://voidmain443.github.io/building_database/)** — a learner who only knows <code>SELECT</code> builds Oracle's storage and instance structure one line at a time, up to crash recovery and row locks.<br/><sub>`AI 105` · 19 units · 3 volumes · 10,980 lines · ●</sub>
 - **SQLP 합격에서 Hero까지 · SQL deepdive** — exam preparation, then the principles behind execution plans, then a performance lab on Oracle 23ai.<br/><sub>`AI 100` · 8 weeks · 1,100+ items · 12 lectures · ◐</sub>
-- **ADP 실습 교재 · Data Analysis with pandas** — read, analyse and report: access audits, ledger reconciliation, checkout funnels, return distributions, delivery sampling.<br/><sub>`AI 110` · 5 projects · 69 notebooks · 105 problems · ◐</sub>
+- **ADP 실습 교재 · Data Analysis with pandas** — read, analyse and report: access audits, ledger reconciliation, checkout funnels, return distributions, delivery sampling.<br/><sub>`AI 110` · 24 projects · 316 notebooks · 500 problems · ◐</sub>
 - **[8주 생성형 AI 집중 과정 · Generative AI, local edition](https://github.com/voidmain443/8week_AI_with_GeminiAPI)** — Google × Kaggle's intensives redesigned as eight Thursday sessions: prompting, embeddings, RAG, function calling, agents, fine-tuning, MLOps.<br/><sub>`AI 200` · 8 weeks · Gemini API · ●</sub>
 
 <details><summary><sub>전체 계획 · planned volumes in AI</sub></summary><br/><sub>AI 301 머신러닝 · AI 310 딥러닝 · AI 410 그래프 신경망 · AI 501 통계적 학습이론 · AI 520 강화학습 · AI 530 인과추론</sub></details>
@@ -133,4 +144,4 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 Open to collaboration on network analysis and computational economics — [voidmain443@gmail.com](mailto:voidmain443@gmail.com). 교재 원고 저장소 초대 요청도 같은 주소로.
 
-<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(학부연구생 데이터분석 과정, Mini-Bloomberg Python, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
+<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재, 학부연구생 데이터분석 과정, Mini-Bloomberg Python, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>

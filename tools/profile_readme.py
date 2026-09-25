@@ -39,6 +39,18 @@ BLOG = dict(
 
 # ---------------------------------------------------------------- projects (public material only)
 PROJ = [
+    dict(gif="img/shots/atlas.gif", url="https://voidmain443.github.io/production-atlas/",
+         title="생산의 해부학 · The Production Atlas", ko="생산함수 추정 문헌의 인터랙티브 아틀라스",
+         desc="보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.",
+         links=[("본문", "https://voidmain443.github.io/production-atlas/"),
+                ("논문 아틀라스", "https://voidmain443.github.io/production-atlas/atlas.html")],
+         tech=[("Three.js", "threedotjs", "000000"), ("D3", "d3", "F9A03C"), ("KaTeX", None, "1a4f7a")]),
+    dict(gif="img/shots/ftm.gif", url="https://voidmain443.github.io/follow_the_metrics_for_PM/",
+         title="Follow the Metrics for PM", ko="숫자를 읽고, 다음 결정을 설명하는 힘",
+         desc="지표의 역사와 측정 방법을 제품의 판단으로 잇는 인터랙티브 교재. 본문 24장과 장별 연습문제 해설, 65개 지표 · 측정 방법 요약집. 분모 · 시간 · 비용 · 비교 조건을 바꿔 가며 직접 계산해 본다.",
+         links=[("첫 장", "https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/"),
+                ("지표 사전", "https://voidmain443.github.io/follow_the_metrics_for_PM/materials/")],
+         tech=[("Astro", "astro", "BC52EE"), ("TypeScript", "typescript", "3178C6"), ("GitHub Pages", "githubpages", "222222")]),
     dict(gif="img/shots/econmap.gif", url="https://voidmain443.github.io/econometrics-map/",
          title="Econometrics Archive", ko="교과서 뒤의 논문들",
          desc="교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.",
@@ -96,6 +108,9 @@ BOOKS = [
     dict(dept="ECON", code="ECON 510", cover="eqdiary", shot="eqdiary-w04", url="https://voidmain443.github.io/Equation_diary/",
          ko="식 일기", en="Understanding World on Equation", shape="24 weeks · 3 parts", status="wip",
          line="a math camp on reading, not solving: what each symbol names, which assumption each line leans on, where undergraduate and graduate readings part ways."),
+    dict(dept="ECON", code="ECON 640", cover=None, shot=None, url=None,
+         ko="FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리", en="Financial Risk, assembled from scratch", shape="73 sessions · 5 semesters", status="wip",
+         line="build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility."),
     dict(dept="NETS", code="NETS 301", cover=None, shot=None, url=None,
          ko="네트워크 과학의 수학", en="Mathematics of Network Science", shape="64-page manuscript", status="wip",
          line="the bridge from economics toward AI; graphs, measures, random graphs and the statistical physics behind them."),
@@ -106,7 +121,7 @@ BOOKS = [
          ko="SQLP 합격에서 Hero까지", en="SQL deepdive", shape="8 weeks · 1,100+ items · 12 lectures", status="wip",
          line="exam preparation, then the principles behind execution plans, then a performance lab on Oracle 23ai."),
     dict(dept="AI", code="AI 110", cover=None, shot=None, url=None,
-         ko="ADP 실습 교재", en="Data Analysis with pandas", shape="5 projects · 69 notebooks · 105 problems", status="wip",
+         ko="ADP 실습 교재", en="Data Analysis with pandas", shape="24 projects · 316 notebooks · 500 problems", status="wip",
          line="read, analyse and report: access audits, ledger reconciliation, checkout funnels, return distributions, delivery sampling."),
     dict(dept="AI", code="AI 200", cover=None, shot=None, url="https://github.com/voidmain443/8week_AI_with_GeminiAPI",
          ko="8주 생성형 AI 집중 과정", en="Generative AI, local edition", shape="8 weeks · Gemini API", status="pub",
@@ -249,8 +264,11 @@ def projects(compact=False):
     if compact:
         cells = "".join(f'<td width="50%" valign="top"><a href="{p["url"]}"><img src="{p["gif"]}" alt="{p["title"]}"/></a><br/><b><a href="{p["url"]}">{p["title"]}</a></b> <sub>{p["ko"]}</sub><br/><sub>{" · ".join(f"<a href={chr(39)}{u}{chr(39)}>{n}</a>" for n, u in p["links"])}</sub></td>' for p in PROJ)
         return head + f"\n<table>\n<tr>\n{cells}\n</tr>\n</table>\n\n<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
-    cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>\n' for p in PROJ)
-    return head + f"\n<table>\n<tr>\n{cells}</tr>\n</table>\n\n<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
+    rows = []
+    for i in range(0, len(PROJ), 2):
+        cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>\n' for p in PROJ[i:i + 2])
+        rows.append(f"<tr>\n{cells}</tr>")
+    return head + "\n<table>\n" + "\n".join(rows) + "\n</table>\n\n<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
 
 ROADMAP = """
 <p align="center">
@@ -353,7 +371,7 @@ CONTACT = f"""
 
 Open to collaboration on network analysis and computational economics — [voidmain443@gmail.com]({L['mail']}). 교재 원고 저장소 초대 요청도 같은 주소로.
 
-<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(학부연구생 데이터분석 과정, Mini-Bloomberg Python, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
+<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재, 학부연구생 데이터분석 과정, Mini-Bloomberg Python, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
 """
 
 def journal():

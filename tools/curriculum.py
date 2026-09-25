@@ -42,6 +42,7 @@ LANES = [
         ("ECON 620", "Computational Econ.",   "계산경제학",    5, "plan", "grad"),
         ("ECON 610", "Econometric Theory",    "계량이론",      6, "plan", "grad"),
         ("ECON 630", "Financial Economics",   "금융경제학",    6, "plan", "grad"),
+        ("ECON 640", "Financial Risk",        "금융 리스크",   6, "wip",  "grad"),
     ]),
     ("NETS", "네트워크 과학", [
         ("NETS 201", "Introduction to Networks", "네트워크 기초", 3, "plan", "ug"),
@@ -83,7 +84,7 @@ EDGES = [  # (src, dst) inside one department; always left to right
     ("ECON 201", "ECON 311"), ("ECON 201", "ECON 320"), ("ECON 510", "ECON 520"),
     ("ECON 301", "ECON 401"), ("ECON 520", "ECON 601"), ("ECON 520", "ECON 602"),
     ("ECON 510", "ECON 620"),
-    ("ECON 301", "ECON 610"), ("ECON 601", "ECON 630"),
+    ("ECON 301", "ECON 610"), ("ECON 601", "ECON 630"), ("ECON 401", "ECON 640"),
 
     ("NETS 201", "NETS 301"),
     ("NETS 301", "NETS 320"), ("NETS 310", "NETS 320"), ("NETS 301", "NETS 330"),
