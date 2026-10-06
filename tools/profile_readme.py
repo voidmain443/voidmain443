@@ -25,6 +25,7 @@ L = dict(
     x="https://x.com/voidmain443",
     mail="mailto:voidmain443@gmail.com",
     gh="https://github.com/voidmain443",
+    site="https://www.voidmain443.com/",
     rethink="https://voidmain443.github.io/github_blog_engine/",
     rethink_post="https://voidmain443.github.io/github_blog_engine/posts/2026-09-yield-curve/index.html",
     awesome="https://github.com/voidmain443/awesome-economic",
@@ -139,9 +140,9 @@ BOOKS = [
     dict(dept="DEV", code="DEV 100", cover=None, shot=None, url=None,
          ko="Mini-Bloomberg로 배우는 Python for Engineering", en="Python for Engineering", shape="20 weeks · 18 projects", status="wip",
          line="every week's deliverable accumulates into one library, so the history of the codebase is the curriculum."),
-    dict(dept="DEV", code="DEV 201", cover=None, shot=None, url=None,
-         ko="DB를 꿰뚫는 백엔드 · Level 1", en="Backend, Level 1", shape="measured: plans, locks, pools, idempotency", status="wip",
-         line="what one request makes the database do, in numbers; the course Level 2 assumes."),
+    dict(dept="DEV", code="DEV 201", cover=None, shot=None, url="https://voidmain443.github.io/backend_dev_learning_guide/",
+         ko="DB를 꿰뚫는 백엔드 · Level 1", en="Backend, Level 1", shape="FastAPI · Django · Oracle, measured", status="pub",
+         line="for people who already know the database at SQLP level: build the web layer on top of it one storey at a time, and reduce every ORM call to the SQL, the count and the plan Oracle actually saw."),
     dict(dept="DEV", code="DEV 202", cover="backend2", shot=None, url="https://voidmain443.github.io/backend_dev_learning_guide_level2/",
          ko="실무 백엔드 · Level 2", en="Build it, break it, bring it back", shape="10 stages · MiniTrade · Docker lab", status="wip",
          line="put a financial service into a real operating environment (DNS, TLS, proxy, workers, broker, deploy, observability, security), break it on purpose, and keep the recovery record; stage 1 published, measured not assumed."),
@@ -229,10 +230,15 @@ def header():
     return f"""<div align="center">
   <img src="https://avatars.githubusercontent.com/u/83549147?v=4" width="104" height="104" alt="Junha Park"/>
   <h2>Junha Park · 박준하</h2>
+  <p><sub>ECONOMICS · ECONOMETRICS · NETWORKS &nbsp;—&nbsp; 경제학의 식과 모델을 공부하면서, 공부할 때 있었으면 했던 자료를 교재와 인터랙티브 사이트로 만들어 공개합니다.</sub></p>
+  <p>{ib(L['site'], 'www.voidmain443.com', '배우면서 만든 것들', '111111', 'googlechrome', alt='개인 사이트 · 배우면서 만든 것들')}</p>
+  <a href="{L['site']}"><img src="img/shots/site.gif" width="100%" alt="www.voidmain443.com — 교재 지도, 프로젝트 관제 화면, 글"/></a>
+  <p><sub>교재 51과목의 선수 지도 · 프로젝트 관제 화면 · 글 — 한곳에 모은 개인 사이트</sub></p>
   <p>
     {ib(L['linkedin'], 'LinkedIn', 'junha-park', '0A66C2', 'linkedin')}
     {ib(L['x'], 'X', '@voidmain443', '000000', 'x')}
     {ib(L['mail'], 'Mail', 'voidmain443', 'EA4335', 'gmail')}
+    {ib(L['gh'], 'GitHub', 'voidmain443', '181717', 'github')}
   </p>
 </div>
 
@@ -240,6 +246,7 @@ def header():
 <tr>
 <td width="280"><a href="{L['rethink']}"><img src="{BLOG['img']}" width="280" alt="{BLOG['name']} blog"/></a></td>
 <td valign="middle">
+<sub>BLOG</sub><br/>
 <b><a href="{L['rethink']}">{BLOG['name']}</a></b> — {BLOG['tagline']}<br/>
 <sub>{BLOG['desc']}</sub>
 </td>
@@ -261,10 +268,7 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 <sub>커피챗 좋아합니다. 위의 프로필 링크로 연락주시면 공동연구 및 업무등에 있어서 논의하면 재미있을 것 같습니다.</sub>
 """
 
-TOUR = """
-<p align="center"><a href="#books"><img src="img/shots/tour.gif" width="100%" alt="Five of the published sites, in turn"/></a></p>
-<p align="center"><sub>생성물 일부 · some of the things built</sub></p>
-"""
+TOUR = ""
 
 def proj_card(p):
     tech = " ".join(f'<img src="{badge1(t[0], t[2], t[1])}" alt="{t[0]}"/>' for t in p["tech"])
