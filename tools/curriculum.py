@@ -45,7 +45,7 @@ LANES = [
         ("ECON 640", "Financial Risk",        "금융 리스크",   6, "wip",  "grad"),
     ]),
     ("NETS", "네트워크 과학", [
-        ("NETS 201", "Introduction to Networks", "네트워크 기초", 3, "plan", "ug"),
+        ("NETS 201", "Networks for Economists", "네트워크 과학", 3, "wip",  "ug"),
         ("NETS 301", "Network Science",       "네트워크 과학",   4, "wip",  "ug"),
         ("NETS 310", "Statistical Physics",   "통계물리",        4, "plan", "ug"),
         ("NETS 320", "Random Graphs",         "랜덤그래프",      5, "plan", "grad"),
@@ -66,6 +66,12 @@ LANES = [
         ("AI 410", "Graph Neural Nets",    "그래프 신경망",  6, "plan", "grad"),
         ("AI 501", "Learning Theory",      "통계적 학습이론", 6, "plan", "grad"),
         ("AI 530", "Causal Inference",     "인과추론",       6, "plan", "grad"),
+    ]),
+    ("DEV", "소프트웨어", [
+        ("DEV 100", "Python for Engineering", "엔지니어링 파이썬", 1, "wip",  "base"),
+        ("DEV 201", "Backend, Level 1",     "백엔드 1 · DB",   2, "wip",  "ug"),
+        ("DEV 202", "Backend, Level 2",     "백엔드 2 · 운영", 3, "wip",  "ug"),
+        ("DEV 210", "Request Path Map",     "요청 경로 지도",  3, "wip",  "ug"),
     ]),
 ]
 
@@ -94,6 +100,8 @@ EDGES = [  # (src, dst) inside one department; always left to right
     ("AI 100", "AI 110"), ("AI 105", "AI 110"), ("AI 110", "AI 301"),
     ("AI 301", "AI 310"), ("AI 301", "AI 520"),
     ("AI 310", "AI 410"), ("AI 310", "AI 501"), ("AI 301", "AI 530"),
+
+    ("DEV 100", "DEV 201"), ("DEV 201", "DEV 202"), ("DEV 201", "DEV 210"),
 ]
 
 CROSS = [  # dashed, cross-department
@@ -110,6 +118,7 @@ CROSS = [  # dashed, cross-department
     ("ECON 201", "NETS 410"),
     ("ECON 301", "AI 530"),
     ("NETS 301", "AI 410"),
+    ("AI 105", "DEV 201"),
 ]
 
 LEVEL_KO = {"base": "기초", "ug": "학부", "grad": "대학원"}
@@ -117,12 +126,12 @@ LEVEL_KO = {"base": "기초", "ug": "학부", "grad": "대학원"}
 THEMES = {
     "light": dict(
         bg="#ffffff", ink="#1f2328", muted="#656d76", hair="#d1d9e0",
-        dept={"MATH": "#2f6f4f", "ECON": "#1a4f7a", "NETS": "#5f4b8b", "AI": "#8a5622"},
+        dept={"MATH": "#2f6f4f", "ECON": "#1a4f7a", "NETS": "#5f4b8b", "AI": "#8a5622", "DEV": "#1b7f79"},
         on_dept="#ffffff", tint=0.10,
     ),
     "dark": dict(
         bg="#0d1117", ink="#e6edf3", muted="#8b949e", hair="#30363d",
-        dept={"MATH": "#4fbe93", "ECON": "#6cb6ff", "NETS": "#b39ddb", "AI": "#dda15e"},
+        dept={"MATH": "#4fbe93", "ECON": "#6cb6ff", "NETS": "#b39ddb", "AI": "#dda15e", "DEV": "#5fd3c8"},
         on_dept="#0d1117", tint=0.16,
     ),
 }
@@ -184,7 +193,7 @@ def build(theme_name):
     # --- header -----------------------------------------------------------
     t, _ = sh.text("PREREQUISITE MAP", MONO_B, "mb", 13, GUT, 38, T["ink"], tracking=1.9)
     body.append(t)
-    t, _ = sh.text("선수과목 지도 · 기초에서 대학원까지, 네 학과가 서로를 어떻게 떠받치는가",
+    t, _ = sh.text("선수과목 지도 · 기초에서 대학원까지, 다섯 학과가 서로를 어떻게 떠받치는가",
                    NOTO_R, "nr", 12.5, GUT, 60, T["muted"])
     body.append(t)
 

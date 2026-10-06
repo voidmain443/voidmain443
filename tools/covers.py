@@ -11,7 +11,7 @@ from svgtext import Sheet, NOTO_R, NOTO_M, NOTO_B, MONO_R, MONO_B
 W, H = 460, 620
 PAD = 40
 
-DEPT = {"MATH": "#2f6f4f", "ECON": "#1a4f7a", "NETS": "#5f4b8b", "AI": "#8a5622"}
+DEPT = {"MATH": "#2f6f4f", "ECON": "#1a4f7a", "NETS": "#5f4b8b", "AI": "#8a5622", "DEV": "#1b7f79"}
 
 # ------------------------------------------------------------------ figures
 # Every figure draws inside the box x:[60,400], y:[196,430].
@@ -239,6 +239,69 @@ def fig_lineage():
     return "".join(o)
 
 
+def fig_network():
+    """A small graph: a dense core, a bridge, and a hub whose edges fan out — the first picture of network science."""
+    o = []
+    import random
+    rnd = random.Random(7)
+    core = [(150 + 48 * math.cos(2 * math.pi * k / 6), 300 + 48 * math.sin(2 * math.pi * k / 6)) for k in range(6)]
+    hub = (318, 326)
+    leaves = [(hub[0] + 70 * math.cos(a), hub[1] + 70 * math.sin(a)) for a in [-1.3, -0.7, -0.1, 0.5, 1.1, 1.8, 2.5]]
+    for i in range(6):
+        for j in range(i + 1, 6):
+            if rnd.random() < 0.75:
+                o.append(f'<line x1="{core[i][0]:.1f}" y1="{core[i][1]:.1f}" x2="{core[j][0]:.1f}" y2="{core[j][1]:.1f}" stroke="#fff" stroke-width="1" opacity="0.5"/>')
+    o.append(f'<line x1="{core[0][0]:.1f}" y1="{core[0][1]:.1f}" x2="{hub[0]}" y2="{hub[1]}" stroke="#fff" stroke-width="1.8" opacity="0.85" stroke-dasharray="5 4"/>')
+    for (x, y) in leaves:
+        o.append(f'<line x1="{hub[0]}" y1="{hub[1]}" x2="{x:.1f}" y2="{y:.1f}" stroke="#fff" stroke-width="1" opacity="0.5"/>')
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="#fff" opacity="0.8"/>')
+    for (x, y) in core:
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5" fill="#fff" opacity="0.95"/>')
+    o.append(f'<circle cx="{hub[0]}" cy="{hub[1]}" r="9" fill="#fff" opacity="0.95"/>')
+    return "".join(o)
+
+
+def fig_layers():
+    """The request path as a stack: browser, DNS, edge, app, queue, database — with one layer broken on purpose."""
+    o = []
+    x0, w = 110, 240
+    names_y = [212, 252, 292, 332, 372, 412]
+    for i, y in enumerate(names_y):
+        broken = (i == 3)
+        o.append(f'<rect x="{x0}" y="{y}" width="{w}" height="28" rx="3" fill="#fff" fill-opacity="{0.22 if broken else 0.12}" stroke="#fff" stroke-width="{1.6 if broken else 1}" opacity="0.9"{" stroke-dasharray=\"6 4\"" if broken else ""}/>')
+        if i < 5:
+            o.append(f'<line x1="{x0 + w / 2}" y1="{y + 28}" x2="{x0 + w / 2}" y2="{y + 40}" stroke="#fff" stroke-width="1.2" opacity="0.6"/>')
+    # request arrow down the left, response arrow up the right
+    o.append(f'<path d="M {x0 - 22} 214 L {x0 - 22} 430 M {x0 - 27} 423 L {x0 - 22} 431 L {x0 - 17} 423" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.6"/>')
+    o.append(f'<path d="M {x0 + w + 22} 438 L {x0 + w + 22} 222 M {x0 + w + 17} 229 L {x0 + w + 22} 221 L {x0 + w + 27} 229" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.6"/>')
+    # the break mark
+    o.append(f'<path d="M {x0 + w - 34} 338 l 8 8 m 0 -8 l -8 8" stroke="#fff" stroke-width="2" opacity="0.95"/>')
+    return "".join(o)
+
+
+def fig_route():
+    """A request's route across a map: stations joined by a polyline, with a dive into one station."""
+    o = []
+    pts = [(80, 400), (140, 350), (205, 372), (265, 300), (330, 318), (385, 240)]
+    d = "M " + " L ".join(f"{x} {y}" for x, y in pts)
+    o.append(f'<path d="{d}" fill="none" stroke="#fff" stroke-width="2" opacity="0.85" stroke-linejoin="round"/>')
+    back = "M " + " L ".join(f"{x + 6} {y + 18}" for x, y in reversed(pts))
+    o.append(f'<path d="{back}" fill="none" stroke="#fff" stroke-width="1" opacity="0.4" stroke-dasharray="4 4"/>')
+    for i, (x, y) in enumerate(pts):
+        o.append(f'<circle cx="{x}" cy="{y}" r="{7 if i in (0, 5) else 5}" fill="#fff" opacity="0.95"/>')
+    # dive: a magnified station with an inner section
+    cx, cy = 300, 232
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="34" fill="#fff" fill-opacity="0.12" stroke="#fff" stroke-width="1.2" opacity="0.8"/>')
+    o.append(f'<line x1="{cx - 20}" y1="{cy - 8}" x2="{cx + 20}" y2="{cy - 8}" stroke="#fff" stroke-width="1" opacity="0.6"/>')
+    o.append(f'<line x1="{cx - 20}" y1="{cy + 4}" x2="{cx + 12}" y2="{cy + 4}" stroke="#fff" stroke-width="1" opacity="0.6"/>')
+    o.append(f'<line x1="{cx - 20}" y1="{cy + 16}" x2="{cx + 16}" y2="{cy + 16}" stroke="#fff" stroke-width="1" opacity="0.6"/>')
+    o.append(f'<line x1="265" y1="300" x2="{cx - 12}" y2="{cy + 30}" stroke="#fff" stroke-width="0.9" opacity="0.5"/>')
+    # a faint graticule
+    for k in range(4):
+        o.append(f'<line x1="70" y1="{220 + k * 55}" x2="400" y2="{220 + k * 55}" stroke="#fff" stroke-width="0.6" opacity="0.18"/>')
+    return "".join(o)
+
+
 # ------------------------------------------------------------------ books
 BOOKS = [
     dict(key="premath", dept="MATH", code="MATH 100",
@@ -271,6 +334,15 @@ BOOKS = [
     dict(key="builddb", dept="AI", code="AI 105",
          ko="DB 직접 만들기", en="Oracle, rebuilt in Python",
          meta="19 units · 3 volumes · 10,980 lines", tech="React book · pytest", status="PUBLISHED", fig=fig_block),
+    dict(key="netsci", dept="NETS", code="NETS 201",
+         ko="경제학자를 위한 네트워크 과학", en="Networks for economists",
+         meta="56 chapters · 4 semesters · 26 done", tech="notebooks · NetworkX", status="IN PROGRESS", fig=fig_network),
+    dict(key="backend2", dept="DEV", code="DEV 202",
+         ko="실무 백엔드 · Level 2", en="Build it, break it, bring it back",
+         meta="10 stages · MiniTrade · Docker lab", tech="measured, not assumed", status="IN PROGRESS", fig=fig_layers),
+    dict(key="reqpath", dept="DEV", code="DEV 210",
+         ko="요청 경로 지도", en="Request path map",
+         meta="22 steps · Seoul to Oregon and back", tech="three.js · Blender", status="IN PROGRESS", fig=fig_route),
 ]
 
 
