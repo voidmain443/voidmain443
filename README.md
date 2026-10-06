@@ -61,18 +61,20 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 <p><sub><a href="https://voidmain443.github.io/econometrics-map/map.html">지도</a> · <a href="https://voidmain443.github.io/econometrics-map/timeline.html">타임라인</a> · <a href="https://voidmain443.github.io/econometrics-map/textbooks.html">교과서에서 시작</a></sub><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Obsidian_vault-7C3AED?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/voidmain443/overleaf_study_guide"><img src="img/shots/overleaf.gif" alt="Overleaf와 LaTeX으로 경제학 논문 쓰기"/></a>
+<td width="50%" valign="top"><a href="https://github.com/voidmain443/overleaf_study_guide"><img src="img/shots/overleaf.jpg" alt="Overleaf와 LaTeX으로 경제학 논문 쓰기"/></a>
 <h4><a href="https://github.com/voidmain443/overleaf_study_guide">Overleaf와 LaTeX으로 경제학 논문 쓰기</a> <sub>서지에서 투고까지</sub></h4>
 <p>빈 파일에서 투고 패키지까지, 학술지 서식으로 조판된 22쪽 논문 한 편을 끝까지 만든다. 교안 39쪽 · 슬라이드 116장 · 시작 프로젝트 · 완성 원고 · 장별 스냅샷 12개.</p>
 <p><sub><a href="https://github.com/voidmain443/overleaf_study_guide">저장소</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/blob/main/guide/latex-paper-guide.pdf">교안 PDF</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/tree/main/starter">시작 프로젝트</a></sub><br/><img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/> <img src="https://img.shields.io/badge/Overleaf-47A141?style=flat-square&logo=overleaf&logoColor=white" alt="Overleaf"/> <img src="https://img.shields.io/badge/v01-2f6f4f?style=flat-square" alt="v01"/></p></td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
 <h4>Smaller tools · 작은 도구들</h4>
 
 - <a href="https://github.com/voidmain443/oracle_db_tutorial"><img src="https://img.shields.io/badge/Oracle_26ai-dataset_generator-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle 26ai · dataset generator"/></a> — SQLP 실습용 이커머스 데이터셋 생성기. HR 실습 이후에 쓰는 규모의 표와 인덱스 실험 데이터.
 - <a href="https://github.com/voidmain443/TDF_project_AX_P"><img src="https://img.shields.io/badge/TDF_crawler-KOFIA_%E2%86%92_SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="TDF crawler · KOFIA → SQLite"/></a> — 국내 타깃데이트펀드의 기준가 · 설정액 · 자금 유출입을 매일 수집하는 멱등 크롤러. 역할별 문서와 팀 학습 트랙.
 - <a href="https://github.com/voidmain443/git-github_for_PM_Tutorial_docs"><img src="https://img.shields.io/badge/Git_%26_GitHub-for_project_managers-F05032?style=flat-square&logo=git&logoColor=white" alt="Git & GitHub · for project managers"/></a> — 비개발 팀을 Git 과 프로젝트 도구 위에 세우는 튜토리얼. PMI 스터디 그룹 교재로 제작 중.
+</td>
+</tr>
+</table>
 
 <a id="books"></a>
 

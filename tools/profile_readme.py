@@ -284,39 +284,19 @@ def projects(compact=False):
 
 사람들에게 도움될 만한 자료를 만들어보고 있습니다. 참고하시면 좋겠습니다.
 """
-    tools_cell = "<h4>Smaller tools · 작은 도구들</h4>
-
-" + tools_list()
+    tools_cell = "<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
     if compact:
         cells = "".join(f'<td width="50%" valign="top"><a href="{p["url"]}"><img src="{p["gif"]}" alt="{p["title"]}"/></a><br/><b><a href="{p["url"]}">{p["title"]}</a></b> <sub>{p["ko"]}</sub><br/><sub>{" · ".join(f"<a href={chr(39)}{u}{chr(39)}>{n}</a>" for n, u in p["links"])}</sub></td>' for p in PROJ)
-        return head + f"
-<table>
-<tr>
-{cells}
-</tr>
-</table>
-
-" + tools_cell
+        return head + f"\n<table>\n<tr>\n{cells}\n</tr>\n</table>\n\n" + tools_cell
     rows = []
     for i in range(0, len(PROJ), 2):
         pair = PROJ[i:i + 2]
-        cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>
-' for p in pair)
+        cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>\n' for p in pair)
         if len(pair) == 1:  # odd count: the last card shares its row with the small tools
-            cells += f'<td width="50%" valign="top">
-
-{tools_cell}</td>
-'
-        rows.append(f"<tr>
-{cells}</tr>")
-    tail = "" if len(PROJ) % 2 else "
-" + tools_cell
-    return head + "
-<table>
-" + "
-".join(rows) + "
-</table>
-" + tail
+            cells += f'<td width="50%" valign="top">\n\n{tools_cell}</td>\n'
+        rows.append(f"<tr>\n{cells}</tr>")
+    tail = "" if len(PROJ) % 2 else "\n" + tools_cell
+    return head + "\n<table>\n" + "\n".join(rows) + "\n</table>\n" + tail
 
 ROADMAP = """
 <p align="center">
