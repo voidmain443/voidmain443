@@ -69,7 +69,7 @@ LANES = [
     ]),
     ("DEV", "소프트웨어", [
         ("DEV 100", "Python for Engineering", "엔지니어링 파이썬", 1, "wip",  "base"),
-        ("DEV 201", "Backend, Level 1",     "백엔드 1 · DB",   2, "wip",  "ug"),
+        ("DEV 201", "Backend, Level 1",     "백엔드 1 · DB",   2, "pub",  "ug"),
         ("DEV 202", "Backend, Level 2",     "백엔드 2 · 운영", 3, "wip",  "ug"),
         ("DEV 210", "Request Path Map",     "요청 경로 지도",  3, "wip",  "ug"),
     ]),

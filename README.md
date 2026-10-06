@@ -1,10 +1,15 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/83549147?v=4" width="104" height="104" alt="Junha Park"/>
   <h2>Junha Park · 박준하</h2>
+  <p><sub>ECONOMICS · ECONOMETRICS · NETWORKS &nbsp;—&nbsp; 경제학의 식과 모델을 공부하면서, 공부할 때 있었으면 했던 자료를 교재와 인터랙티브 사이트로 만들어 공개합니다.</sub></p>
+  <p><a href="https://www.voidmain443.com/"><img src="https://img.shields.io/badge/www.voidmain443.com-%EB%B0%B0%EC%9A%B0%EB%A9%B4%EC%84%9C_%EB%A7%8C%EB%93%A0_%EA%B2%83%EB%93%A4-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="개인 사이트 · 배우면서 만든 것들"/></a></p>
+  <a href="https://www.voidmain443.com/"><img src="img/shots/site.gif" width="100%" alt="www.voidmain443.com — 교재 지도, 프로젝트 관제 화면, 글"/></a>
+  <p><sub>교재 51과목의 선수 지도 · 프로젝트 관제 화면 · 글 — 한곳에 모은 개인 사이트</sub></p>
   <p>
     <a href="https://www.linkedin.com/in/junha-park-592630193/"><img src="https://img.shields.io/badge/LinkedIn-junha--park-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn · junha-park"/></a>
     <a href="https://x.com/voidmain443"><img src="https://img.shields.io/badge/X-%40voidmain443-000000?style=flat-square&logo=x&logoColor=white" alt="X · @voidmain443"/></a>
     <a href="mailto:voidmain443@gmail.com"><img src="https://img.shields.io/badge/Mail-voidmain443-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Mail · voidmain443"/></a>
+    <a href="https://github.com/voidmain443"><img src="https://img.shields.io/badge/GitHub-voidmain443-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub · voidmain443"/></a>
   </p>
 </div>
 
@@ -12,6 +17,7 @@
 <tr>
 <td width="280"><a href="https://voidmain443.github.io/github_blog_engine/"><img src="img/shots/rethink-card.jpg" width="280" alt="Rethink blog"/></a></td>
 <td valign="middle">
+<sub>BLOG</sub><br/>
 <b><a href="https://voidmain443.github.io/github_blog_engine/">Rethink</a></b> — 숫자로 재고, 역사에 놓고, 다시 생각한다.<br/>
 <sub>경제학과 세상을 잇는 글을 써 보는 시도입니다. 현안을 데이터로 읽고, 역사와 경제학의 눈으로 다시 생각해 봅니다.</sub>
 </td>
@@ -29,9 +35,6 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 -장막속에서 길을 그리며-
 
 <sub>커피챗 좋아합니다. 위의 프로필 링크로 연락주시면 공동연구 및 업무등에 있어서 논의하면 재미있을 것 같습니다.</sub>
-
-<p align="center"><a href="#books"><img src="img/shots/tour.gif" width="100%" alt="Five of the published sites, in turn"/></a></p>
-<p align="center"><sub>생성물 일부 · some of the things built</sub></p>
 
 <a id="projects"></a>
 
@@ -142,7 +145,7 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 <p align="center"><a href="https://voidmain443.github.io/backend_dev_learning_guide_level2/"><img src="img/cover-backend2.svg" width="15%" alt="실무 백엔드 · Level 2"/></a> <a href="https://voidmain443.github.io/user_to_response/"><img src="img/cover-reqpath.svg" width="15%" alt="요청 경로 지도"/></a></p>
 
 - **Mini-Bloomberg로 배우는 Python for Engineering · Python for Engineering** — every week's deliverable accumulates into one library, so the history of the codebase is the curriculum.<br/><sub>`DEV 100` · 20 weeks · 18 projects · ◐</sub>
-- **DB를 꿰뚫는 백엔드 · Level 1 · Backend, Level 1** — what one request makes the database do, in numbers; the course Level 2 assumes.<br/><sub>`DEV 201` · measured: plans, locks, pools, idempotency · ◐</sub>
+- **[DB를 꿰뚫는 백엔드 · Level 1 · Backend, Level 1](https://voidmain443.github.io/backend_dev_learning_guide/)** — for people who already know the database at SQLP level: build the web layer on top of it one storey at a time, and reduce every ORM call to the SQL, the count and the plan Oracle actually saw.<br/><sub>`DEV 201` · FastAPI · Django · Oracle, measured · ●</sub>
 - **[실무 백엔드 · Level 2 · Build it, break it, bring it back](https://voidmain443.github.io/backend_dev_learning_guide_level2/)** — put a financial service into a real operating environment (DNS, TLS, proxy, workers, broker, deploy, observability, security), break it on purpose, and keep the recovery record; stage 1 published, measured not assumed.<br/><sub>`DEV 202` · 10 stages · MiniTrade · Docker lab · ◐</sub>
 - **[요청 경로 지도 · Request Path Map](https://voidmain443.github.io/user_to_response/)** — one order request followed from a browser in Seoul to PostgreSQL in Oregon and back, on a 3D poster that fills in one station at a time, with a failure simulator.<br/><sub>`DEV 210` · 22 steps · 16 textbook chapters · failure lab · ◐</sub>
 
