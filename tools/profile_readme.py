@@ -39,6 +39,12 @@ BLOG = dict(
 
 # ---------------------------------------------------------------- projects (public material only)
 PROJ = [
+    dict(gif="img/shots/inequality.gif", url="https://voidmain443.github.io/inequality-atlas/",
+         title="Inequality Atlas", ko="같은 지니계수를 가진 두 나라는 정말 비슷하게 불평등할까",
+         desc="20개국 · 1980–2024 · 7개 데이터베이스. 회전하는 지구본에서 나라를 고르면 본문의 차트가 따라 바뀌는 장편 데이터 스토리. 정의가 다른 시계열은 잇지 않고, 추정된 해는 추정이라 적고, 비교 가능성 자체를 분석 대상으로 삼는다. 한국어 · 영어.",
+         links=[("지구본", "https://voidmain443.github.io/inequality-atlas/"),
+                ("01 같은 지니, 다른 불평등", "https://voidmain443.github.io/inequality-atlas/#01")],
+         tech=[("Three.js", "threedotjs", "000000"), ("D3", "d3", "F9A03C"), ("pandas", "pandas", "150458")]),
     dict(gif="img/shots/atlas.gif", url="https://voidmain443.github.io/production-atlas/",
          title="생산의 해부학 · The Production Atlas", ko="생산함수 추정 문헌의 인터랙티브 아틀라스",
          desc="보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.",
@@ -58,7 +64,7 @@ PROJ = [
                 ("타임라인", "https://voidmain443.github.io/econometrics-map/timeline.html"),
                 ("교과서에서 시작", "https://voidmain443.github.io/econometrics-map/textbooks.html")],
          tech=[("Python", "python", "3776AB"), ("Obsidian vault", "obsidian", "7C3AED"), ("GitHub Pages", "githubpages", "222222")]),
-    dict(gif="img/shots/overleaf.gif", url="https://github.com/voidmain443/overleaf_study_guide",
+    dict(gif="img/shots/overleaf.jpg", url="https://github.com/voidmain443/overleaf_study_guide",
          title="Overleaf와 LaTeX으로 경제학 논문 쓰기", ko="서지에서 투고까지",
          desc="빈 파일에서 투고 패키지까지, 학술지 서식으로 조판된 22쪽 논문 한 편을 끝까지 만든다. 교안 39쪽 · 슬라이드 116장 · 시작 프로젝트 · 완성 원고 · 장별 스냅샷 12개.",
          links=[("저장소", "https://github.com/voidmain443/overleaf_study_guide"),
@@ -81,6 +87,7 @@ DEPT = {
     "ECON": dict(ko="경제학", color="1a4f7a", blurb="원론에서 계산경제학과 네트워크경제학까지."),
     "NETS": dict(ko="네트워크 과학", color="5f4b8b", blurb="네트워크의 통계물리와 수학. 제 연구가 있는 자리."),
     "AI":   dict(ko="인공지능", color="8a5622", blurb="데이터 기초에서 그래프 신경망까지. 넷이 모이는 곳."),
+    "DEV":  dict(ko="소프트웨어", color="1b7f79", blurb="만들고, 측정하고, 일부러 깨뜨려 보는 공학."),
 }
 # status: pub | wip | plan.  url None = private, no site yet.  shot/cover = file stems under img/.
 BOOKS = [
@@ -111,6 +118,9 @@ BOOKS = [
     dict(dept="ECON", code="ECON 640", cover=None, shot=None, url=None,
          ko="FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리", en="Financial Risk, assembled from scratch", shape="73 sessions · 5 semesters", status="wip",
          line="build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility."),
+    dict(dept="NETS", code="NETS 201", cover="netsci", shot=None, url="https://voidmain443.github.io/Econ_network_science/",
+         ko="경제학자를 위한 네트워크 과학", en="Networks for Economists", shape="56 chapters · 4 semesters · 26 written", status="wip",
+         line="from graph theory to network econometrics in 24 months: solve each small example by hand, rebuild the model in Python, then apply it to BEA, OECD, CEPII, BIS and SEC data."),
     dict(dept="NETS", code="NETS 301", cover=None, shot=None, url=None,
          ko="네트워크 과학의 수학", en="Mathematics of Network Science", shape="64-page manuscript", status="wip",
          line="the bridge from economics toward AI; graphs, measures, random graphs and the statistical physics behind them."),
@@ -126,12 +136,25 @@ BOOKS = [
     dict(dept="AI", code="AI 200", cover=None, shot=None, url="https://github.com/voidmain443/8week_AI_with_GeminiAPI",
          ko="8주 생성형 AI 집중 과정", en="Generative AI, local edition", shape="8 weeks · Gemini API", status="pub",
          line="Google × Kaggle's intensives redesigned as eight Thursday sessions: prompting, embeddings, RAG, function calling, agents, fine-tuning, MLOps."),
+    dict(dept="DEV", code="DEV 100", cover=None, shot=None, url=None,
+         ko="Mini-Bloomberg로 배우는 Python for Engineering", en="Python for Engineering", shape="20 weeks · 18 projects", status="wip",
+         line="every week's deliverable accumulates into one library, so the history of the codebase is the curriculum."),
+    dict(dept="DEV", code="DEV 201", cover=None, shot=None, url=None,
+         ko="DB를 꿰뚫는 백엔드 · Level 1", en="Backend, Level 1", shape="measured: plans, locks, pools, idempotency", status="wip",
+         line="what one request makes the database do, in numbers; the course Level 2 assumes."),
+    dict(dept="DEV", code="DEV 202", cover="backend2", shot=None, url="https://voidmain443.github.io/backend_dev_learning_guide_level2/",
+         ko="실무 백엔드 · Level 2", en="Build it, break it, bring it back", shape="10 stages · MiniTrade · Docker lab", status="wip",
+         line="put a financial service into a real operating environment (DNS, TLS, proxy, workers, broker, deploy, observability, security), break it on purpose, and keep the recovery record; stage 1 published, measured not assumed."),
+    dict(dept="DEV", code="DEV 210", cover="reqpath", shot=None, url="https://voidmain443.github.io/user_to_response/",
+         ko="요청 경로 지도", en="Request Path Map", shape="22 steps · 16 textbook chapters · failure lab", status="wip",
+         line="one order request followed from a browser in Seoul to PostgreSQL in Oregon and back, on a 3D poster that fills in one station at a time, with a failure simulator."),
 ]
 PLANNED = {
     "MATH": "MATH 120 확률통계 · MATH 201 해석학 (◐) · MATH 210 미분방정식 · MATH 220 다변수해석 · MATH 230 이산·조합론 · MATH 240 수치해석 · MATH 260 최적화 · MATH 301 측도·확률론 · MATH 310 확률과정 · MATH 320 함수해석 · MATH 330 통계적 추론",
     "ECON": "ECON 201 미시 · ECON 202 거시 · ECON 301 계량 · ECON 311 게임이론 · ECON 320 산업조직 · ECON 401 시계열 · ECON 520 수리경제 · ECON 601/602 미시·거시이론 · ECON 610 계량이론 · ECON 620 계산경제학 · ECON 630 금융경제학",
     "NETS": "NETS 201 네트워크 기초 · NETS 310 통계물리 · NETS 320 랜덤그래프 · NETS 330 네트워크 동역학 · NETS 410 네트워크경제학 · NETS 510 복잡계 · NETS 520 경제물리학 · NETS 530 네트워크 추론",
     "AI": "AI 301 머신러닝 · AI 310 딥러닝 · AI 410 그래프 신경망 · AI 501 통계적 학습이론 · AI 520 강화학습 · AI 530 인과추론",
+    "DEV": "다음 권은 Level 2 가 끝난 뒤 정합니다. 후보: 분산 시스템 · 데이터 파이프라인 · 관측성 심화",
 }
 # figures pulled from the books themselves (img/figs); (file, link, dept code, caption)
 FIGS = [
@@ -261,14 +284,39 @@ def projects(compact=False):
 
 사람들에게 도움될 만한 자료를 만들어보고 있습니다. 참고하시면 좋겠습니다.
 """
+    tools_cell = "<h4>Smaller tools · 작은 도구들</h4>
+
+" + tools_list()
     if compact:
         cells = "".join(f'<td width="50%" valign="top"><a href="{p["url"]}"><img src="{p["gif"]}" alt="{p["title"]}"/></a><br/><b><a href="{p["url"]}">{p["title"]}</a></b> <sub>{p["ko"]}</sub><br/><sub>{" · ".join(f"<a href={chr(39)}{u}{chr(39)}>{n}</a>" for n, u in p["links"])}</sub></td>' for p in PROJ)
-        return head + f"\n<table>\n<tr>\n{cells}\n</tr>\n</table>\n\n<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
+        return head + f"
+<table>
+<tr>
+{cells}
+</tr>
+</table>
+
+" + tools_cell
     rows = []
     for i in range(0, len(PROJ), 2):
-        cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>\n' for p in PROJ[i:i + 2])
-        rows.append(f"<tr>\n{cells}</tr>")
-    return head + "\n<table>\n" + "\n".join(rows) + "\n</table>\n\n<h4>Smaller tools · 작은 도구들</h4>\n\n" + tools_list()
+        pair = PROJ[i:i + 2]
+        cells = "".join(f'<td width="50%" valign="top">{proj_card(p)}</td>
+' for p in pair)
+        if len(pair) == 1:  # odd count: the last card shares its row with the small tools
+            cells += f'<td width="50%" valign="top">
+
+{tools_cell}</td>
+'
+        rows.append(f"<tr>
+{cells}</tr>")
+    tail = "" if len(PROJ) % 2 else "
+" + tools_cell
+    return head + "
+<table>
+" + "
+".join(rows) + "
+</table>
+" + tail
 
 ROADMAP = """
 <p align="center">
@@ -340,11 +388,11 @@ def textbooks(style):
 
 ## Textbooks · 교재
 
-네 학과로 나누어 씁니다. 지도가 먼저, 그다음 학과별로. 완성되는 순서대로 카드가 늘어나고, 예정된 권은 지도와 접힌 목록에 있습니다.
+다섯 학과로 나누어 씁니다. 지도가 먼저, 그다음 학과별로. 완성되는 순서대로 카드가 늘어나고, 예정된 권은 지도와 접힌 목록에 있습니다.
 """, ROADMAP, SOURCE_NOTE]
     if style == "cards":
         parts.append(figures())
-    for d in ["MATH", "ECON", "NETS", "AI"]:
+    for d in ["MATH", "ECON", "NETS", "AI", "DEV"]:
         parts.append(dept_head(d))
         if style == "cards":
             parts.append(dept_cards(d))
@@ -371,7 +419,7 @@ CONTACT = f"""
 
 Open to collaboration on network analysis and computational economics — [voidmain443@gmail.com]({L['mail']}). 교재 원고 저장소 초대 요청도 같은 주소로.
 
-<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재, 학부연구생 데이터분석 과정, Mini-Bloomberg Python, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
+<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재와 라이브러리, 학부연구생 데이터분석 과정, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
 """
 
 def journal():
