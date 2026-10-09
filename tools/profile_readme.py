@@ -40,6 +40,13 @@ BLOG = dict(
 
 # ---------------------------------------------------------------- projects (public material only)
 PROJ = [
+    dict(gif="img/shots/pmgh.gif", url="https://voidmain443.github.io/project_consulting_with_gh/",
+         title="PM을 위한 GitHub CLI", ko="이슈와 PR 기록으로 완료 확률을 계산하고 병목을 찾는다",
+         desc="기획자와 PM이 gh 로 백로그 · 스프린트 · PR · 회의 기록을 운영하고(1단계), 같은 기록을 이벤트 로그로 바꿔 프로세스 마이닝으로 병목을 찾는(2단계) 실습 과정. Level 1 여섯 회차에 측정 · 통제 · 마이닝 심화 · PM 본류 네 트랙. 22회 × 180분, 키트 스크립트 44개.",
+         links=[("Level 1", "https://voidmain443.github.io/project_consulting_with_gh/level1.html"),
+                ("EVM 계산기", "https://voidmain443.github.io/project_consulting_with_gh/lab14-evm.html"),
+                ("프로세스 지도", "https://voidmain443.github.io/project_consulting_with_gh/lab21-process-mining.html")],
+         tech=[("GitHub CLI", "github", "181717"), ("PM4Py", "python", "3776AB"), ("GitHub Pages", "githubpages", "222222")]),
     dict(gif="img/shots/inequality.gif", url="https://voidmain443.github.io/inequality-atlas/",
          title="Inequality Atlas", ko="같은 지니계수를 가진 두 나라는 정말 비슷하게 불평등할까",
          desc="20개국 · 1980–2024 · 7개 데이터베이스. 회전하는 지구본에서 나라를 고르면 본문의 차트가 따라 바뀌는 장편 데이터 스토리. 정의가 다른 시계열은 잇지 않고, 추정된 해는 추정이라 적고, 비교 가능성 자체를 분석 대상으로 삼는다. 한국어 · 영어.",
@@ -58,7 +65,7 @@ PROJ = [
          links=[("첫 장", "https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/"),
                 ("지표 사전", "https://voidmain443.github.io/follow_the_metrics_for_PM/materials/")],
          tech=[("Astro", "astro", "BC52EE"), ("TypeScript", "typescript", "3178C6"), ("GitHub Pages", "githubpages", "222222")]),
-    dict(gif="img/shots/econmap.gif", url="https://voidmain443.github.io/econometrics-map/",
+    dict(gif="img/shots/econmap.jpg", url="https://voidmain443.github.io/econometrics-map/",
          title="Econometrics Archive", ko="교과서 뒤의 논문들",
          desc="교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.",
          links=[("지도", "https://voidmain443.github.io/econometrics-map/map.html"),
@@ -146,6 +153,9 @@ BOOKS = [
     dict(dept="DEV", code="DEV 202", cover="backend2", shot=None, url="https://voidmain443.github.io/backend_dev_learning_guide_level2/",
          ko="실무 백엔드 · Level 2", en="Build it, break it, bring it back", shape="10 stages · MiniTrade · Docker lab", status="wip",
          line="put a financial service into a real operating environment (DNS, TLS, proxy, workers, broker, deploy, observability, security), break it on purpose, and keep the recovery record; stage 1 published, measured not assumed."),
+    dict(dept="DEV", code="DEV 203", cover="backend3", shot=None, url="https://voidmain443.github.io/backend_dev_learning_guide_level3/",
+         ko="운영 · 규모 · 신뢰성 · Level 3", en="Backend, Level 3 — run it at scale, 24/7", shape="7 sessions · kind · chaos", status="pub",
+         line="the graduation stage: MiniTrade on a local Kubernetes, then rolling deploys in 8 seconds, HPA 2→6, read replicas and stale reads, retry storms and circuit breakers, hard kills with 100 % SLO; every number measured on kind."),
     dict(dept="DEV", code="DEV 210", cover="reqpath", shot=None, url="https://voidmain443.github.io/user_to_response/",
          ko="요청 경로 지도", en="Request Path Map", shape="22 steps · 16 textbook chapters · failure lab", status="wip",
          line="one order request followed from a browser in Seoul to PostgreSQL in Oregon and back, on a 3D poster that fills in one station at a time, with a failure simulator."),
@@ -155,7 +165,7 @@ PLANNED = {
     "ECON": "ECON 201 미시 · ECON 202 거시 · ECON 301 계량 · ECON 311 게임이론 · ECON 320 산업조직 · ECON 401 시계열 · ECON 520 수리경제 · ECON 601/602 미시·거시이론 · ECON 610 계량이론 · ECON 620 계산경제학 · ECON 630 금융경제학",
     "NETS": "NETS 201 네트워크 기초 · NETS 310 통계물리 · NETS 320 랜덤그래프 · NETS 330 네트워크 동역학 · NETS 410 네트워크경제학 · NETS 510 복잡계 · NETS 520 경제물리학 · NETS 530 네트워크 추론",
     "AI": "AI 301 머신러닝 · AI 310 딥러닝 · AI 410 그래프 신경망 · AI 501 통계적 학습이론 · AI 520 강화학습 · AI 530 인과추론",
-    "DEV": "다음 권은 Level 2 가 끝난 뒤 정합니다. 후보: 분산 시스템 · 데이터 파이프라인 · 관측성 심화",
+    "DEV": "Level 1 → 2 → 3 으로 한 계열이 닫혔습니다. 다음 후보: 데이터 파이프라인 · 관측성 심화 · 실전 트랙(멀티리전 · 비용)",
 }
 # figures pulled from the books themselves (img/figs); (file, link, dept code, caption)
 FIGS = [
@@ -403,7 +413,7 @@ CONTACT = f"""
 
 Open to collaboration on network analysis and computational economics — [voidmain443@gmail.com]({L['mail']}). 교재 원고 저장소 초대 요청도 같은 주소로.
 
-<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재와 라이브러리, 학부연구생 데이터분석 과정, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
+<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재와 라이브러리, 디자인 지시어 라이브러리, 학부연구생 데이터분석 과정, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
 """
 
 def journal():

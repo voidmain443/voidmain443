@@ -72,6 +72,7 @@ LANES = [
         ("DEV 201", "Backend, Level 1",     "백엔드 1 · DB",   2, "pub",  "ug"),
         ("DEV 202", "Backend, Level 2",     "백엔드 2 · 운영", 3, "wip",  "ug"),
         ("DEV 210", "Request Path Map",     "요청 경로 지도",  3, "wip",  "ug"),
+        ("DEV 203", "Backend, Level 3",     "백엔드 3 · 운영", 4, "pub",  "ug"),
     ]),
 ]
 
@@ -101,7 +102,7 @@ EDGES = [  # (src, dst) inside one department; always left to right
     ("AI 301", "AI 310"), ("AI 301", "AI 520"),
     ("AI 310", "AI 410"), ("AI 310", "AI 501"), ("AI 301", "AI 530"),
 
-    ("DEV 100", "DEV 201"), ("DEV 201", "DEV 202"), ("DEV 201", "DEV 210"),
+    ("DEV 100", "DEV 201"), ("DEV 201", "DEV 202"), ("DEV 201", "DEV 210"), ("DEV 202", "DEV 203"),
 ]
 
 CROSS = [  # dashed, cross-department

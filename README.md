@@ -44,40 +44,42 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <table>
 <tr>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/project_consulting_with_gh/"><img src="img/shots/pmgh.gif" alt="PM을 위한 GitHub CLI"/></a>
+<h4><a href="https://voidmain443.github.io/project_consulting_with_gh/">PM을 위한 GitHub CLI</a> <sub>이슈와 PR 기록으로 완료 확률을 계산하고 병목을 찾는다</sub></h4>
+<p>기획자와 PM이 gh 로 백로그 · 스프린트 · PR · 회의 기록을 운영하고(1단계), 같은 기록을 이벤트 로그로 바꿔 프로세스 마이닝으로 병목을 찾는(2단계) 실습 과정. Level 1 여섯 회차에 측정 · 통제 · 마이닝 심화 · PM 본류 네 트랙. 22회 × 180분, 키트 스크립트 44개.</p>
+<p><sub><a href="https://voidmain443.github.io/project_consulting_with_gh/level1.html">Level 1</a> · <a href="https://voidmain443.github.io/project_consulting_with_gh/lab14-evm.html">EVM 계산기</a> · <a href="https://voidmain443.github.io/project_consulting_with_gh/lab21-process-mining.html">프로세스 지도</a></sub><br/><img src="https://img.shields.io/badge/GitHub_CLI-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub CLI"/> <img src="https://img.shields.io/badge/PM4Py-3776AB?style=flat-square&logo=python&logoColor=white" alt="PM4Py"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
 <td width="50%" valign="top"><a href="https://voidmain443.github.io/inequality-atlas/"><img src="img/shots/inequality.gif" alt="Inequality Atlas"/></a>
 <h4><a href="https://voidmain443.github.io/inequality-atlas/">Inequality Atlas</a> <sub>같은 지니계수를 가진 두 나라는 정말 비슷하게 불평등할까</sub></h4>
 <p>20개국 · 1980–2024 · 7개 데이터베이스. 회전하는 지구본에서 나라를 고르면 본문의 차트가 따라 바뀌는 장편 데이터 스토리. 정의가 다른 시계열은 잇지 않고, 추정된 해는 추정이라 적고, 비교 가능성 자체를 분석 대상으로 삼는다. 한국어 · 영어.</p>
 <p><sub><a href="https://voidmain443.github.io/inequality-atlas/">지구본</a> · <a href="https://voidmain443.github.io/inequality-atlas/#01">01 같은 지니, 다른 불평등</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/D3-F9A03C?style=flat-square&logo=d3&logoColor=white" alt="D3"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></p></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><a href="https://voidmain443.github.io/production-atlas/"><img src="img/shots/atlas.gif" alt="생산의 해부학 · The Production Atlas"/></a>
 <h4><a href="https://voidmain443.github.io/production-atlas/">생산의 해부학 · The Production Atlas</a> <sub>생산함수 추정 문헌의 인터랙티브 아틀라스</sub></h4>
 <p>보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.</p>
 <p><sub><a href="https://voidmain443.github.io/production-atlas/">본문</a> · <a href="https://voidmain443.github.io/production-atlas/atlas.html">논문 아틀라스</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/D3-F9A03C?style=flat-square&logo=d3&logoColor=white" alt="D3"/> <img src="https://img.shields.io/badge/KaTeX-1a4f7a?style=flat-square" alt="KaTeX"/></p></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/"><img src="img/shots/ftm.gif" alt="Follow the Metrics for PM"/></a>
 <h4><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/">Follow the Metrics for PM</a> <sub>숫자를 읽고, 다음 결정을 설명하는 힘</sub></h4>
 <p>지표의 역사와 측정 방법을 제품의 판단으로 잇는 인터랙티브 교재. 본문 24장과 장별 연습문제 해설, 65개 지표 · 측정 방법 요약집. 분모 · 시간 · 비용 · 비교 조건을 바꿔 가며 직접 계산해 본다.</p>
 <p><sub><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/">첫 장</a> · <a href="https://voidmain443.github.io/follow_the_metrics_for_PM/materials/">지표 사전</a></sub><br/><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
-<td width="50%" valign="top"><a href="https://voidmain443.github.io/econometrics-map/"><img src="img/shots/econmap.gif" alt="Econometrics Archive"/></a>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/econometrics-map/"><img src="img/shots/econmap.jpg" alt="Econometrics Archive"/></a>
 <h4><a href="https://voidmain443.github.io/econometrics-map/">Econometrics Archive</a> <sub>교과서 뒤의 논문들</sub></h4>
 <p>교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.</p>
 <p><sub><a href="https://voidmain443.github.io/econometrics-map/map.html">지도</a> · <a href="https://voidmain443.github.io/econometrics-map/timeline.html">타임라인</a> · <a href="https://voidmain443.github.io/econometrics-map/textbooks.html">교과서에서 시작</a></sub><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Obsidian_vault-7C3AED?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><a href="https://github.com/voidmain443/overleaf_study_guide"><img src="img/shots/overleaf.jpg" alt="Overleaf와 LaTeX으로 경제학 논문 쓰기"/></a>
 <h4><a href="https://github.com/voidmain443/overleaf_study_guide">Overleaf와 LaTeX으로 경제학 논문 쓰기</a> <sub>서지에서 투고까지</sub></h4>
 <p>빈 파일에서 투고 패키지까지, 학술지 서식으로 조판된 22쪽 논문 한 편을 끝까지 만든다. 교안 39쪽 · 슬라이드 116장 · 시작 프로젝트 · 완성 원고 · 장별 스냅샷 12개.</p>
 <p><sub><a href="https://github.com/voidmain443/overleaf_study_guide">저장소</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/blob/main/guide/latex-paper-guide.pdf">교안 PDF</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/tree/main/starter">시작 프로젝트</a></sub><br/><img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/> <img src="https://img.shields.io/badge/Overleaf-47A141?style=flat-square&logo=overleaf&logoColor=white" alt="Overleaf"/> <img src="https://img.shields.io/badge/v01-2f6f4f?style=flat-square" alt="v01"/></p></td>
-<td width="50%" valign="top">
+</tr>
+</table>
 
 <h4>Smaller tools · 작은 도구들</h4>
 
 - <a href="https://github.com/voidmain443/oracle_db_tutorial"><img src="https://img.shields.io/badge/Oracle_26ai-dataset_generator-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle 26ai · dataset generator"/></a> — SQLP 실습용 이커머스 데이터셋 생성기. HR 실습 이후에 쓰는 규모의 표와 인덱스 실험 데이터.
 - <a href="https://github.com/voidmain443/TDF_project_AX_P"><img src="https://img.shields.io/badge/TDF_crawler-KOFIA_%E2%86%92_SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="TDF crawler · KOFIA → SQLite"/></a> — 국내 타깃데이트펀드의 기준가 · 설정액 · 자금 유출입을 매일 수집하는 멱등 크롤러. 역할별 문서와 팀 학습 트랙.
 - <a href="https://github.com/voidmain443/git-github_for_PM_Tutorial_docs"><img src="https://img.shields.io/badge/Git_%26_GitHub-for_project_managers-F05032?style=flat-square&logo=git&logoColor=white" alt="Git & GitHub · for project managers"/></a> — 비개발 팀을 Git 과 프로젝트 도구 위에 세우는 튜토리얼. PMI 스터디 그룹 교재로 제작 중.
-</td>
-</tr>
-</table>
 
 <a id="books"></a>
 
@@ -142,14 +144,15 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <h3><img src="https://img.shields.io/badge/DEV-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-1b7f79?style=flat-square" alt="DEV · 소프트웨어"/> &nbsp;소프트웨어 <sub>만들고, 측정하고, 일부러 깨뜨려 보는 공학.</sub></h3>
 
-<p align="center"><a href="https://voidmain443.github.io/backend_dev_learning_guide_level2/"><img src="img/cover-backend2.svg" width="15%" alt="실무 백엔드 · Level 2"/></a> <a href="https://voidmain443.github.io/user_to_response/"><img src="img/cover-reqpath.svg" width="15%" alt="요청 경로 지도"/></a></p>
+<p align="center"><a href="https://voidmain443.github.io/backend_dev_learning_guide_level2/"><img src="img/cover-backend2.svg" width="15%" alt="실무 백엔드 · Level 2"/></a> <a href="https://voidmain443.github.io/backend_dev_learning_guide_level3/"><img src="img/cover-backend3.svg" width="15%" alt="운영 · 규모 · 신뢰성 · Level 3"/></a> <a href="https://voidmain443.github.io/user_to_response/"><img src="img/cover-reqpath.svg" width="15%" alt="요청 경로 지도"/></a></p>
 
 - **Mini-Bloomberg로 배우는 Python for Engineering · Python for Engineering** — every week's deliverable accumulates into one library, so the history of the codebase is the curriculum.<br/><sub>`DEV 100` · 20 weeks · 18 projects · ◐</sub>
 - **[DB를 꿰뚫는 백엔드 · Level 1 · Backend, Level 1](https://voidmain443.github.io/backend_dev_learning_guide/)** — for people who already know the database at SQLP level: build the web layer on top of it one storey at a time, and reduce every ORM call to the SQL, the count and the plan Oracle actually saw.<br/><sub>`DEV 201` · FastAPI · Django · Oracle, measured · ●</sub>
 - **[실무 백엔드 · Level 2 · Build it, break it, bring it back](https://voidmain443.github.io/backend_dev_learning_guide_level2/)** — put a financial service into a real operating environment (DNS, TLS, proxy, workers, broker, deploy, observability, security), break it on purpose, and keep the recovery record; stage 1 published, measured not assumed.<br/><sub>`DEV 202` · 10 stages · MiniTrade · Docker lab · ◐</sub>
+- **[운영 · 규모 · 신뢰성 · Level 3 · Backend, Level 3 — run it at scale, 24/7](https://voidmain443.github.io/backend_dev_learning_guide_level3/)** — the graduation stage: MiniTrade on a local Kubernetes, then rolling deploys in 8 seconds, HPA 2→6, read replicas and stale reads, retry storms and circuit breakers, hard kills with 100 % SLO; every number measured on kind.<br/><sub>`DEV 203` · 7 sessions · kind · chaos · ●</sub>
 - **[요청 경로 지도 · Request Path Map](https://voidmain443.github.io/user_to_response/)** — one order request followed from a browser in Seoul to PostgreSQL in Oregon and back, on a 3D poster that fills in one station at a time, with a failure simulator.<br/><sub>`DEV 210` · 22 steps · 16 textbook chapters · failure lab · ◐</sub>
 
-<details><summary><sub>전체 계획 · planned volumes in DEV</sub></summary><br/><sub>다음 권은 Level 2 가 끝난 뒤 정합니다. 후보: 분산 시스템 · 데이터 파이프라인 · 관측성 심화</sub></details>
+<details><summary><sub>전체 계획 · planned volumes in DEV</sub></summary><br/><sub>Level 1 → 2 → 3 으로 한 계열이 닫혔습니다. 다음 후보: 데이터 파이프라인 · 관측성 심화 · 실전 트랙(멀티리전 · 비용)</sub></details>
 
 <a id="archives"></a>
 
@@ -168,4 +171,4 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 Open to collaboration on network analysis and computational economics — [voidmain443@gmail.com](mailto:voidmain443@gmail.com). 교재 원고 저장소 초대 요청도 같은 주소로.
 
-<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재와 라이브러리, 학부연구생 데이터분석 과정, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
+<sub>네트워크 분석·계산경제학 협업 환영. 비공개로 제작 중인 원고(서비스 기획자 실습교재와 라이브러리, 디자인 지시어 라이브러리, 학부연구생 데이터분석 과정, 증명법 LaTeX 판, KIS)는 협업 문의로 열어 드립니다.</sub>
