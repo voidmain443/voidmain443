@@ -302,6 +302,28 @@ def fig_route():
     return "".join(o)
 
 
+def fig_replicas():
+    """Three replicas behind one entry point; one is struck out and the others take the load — self-healing, drawn."""
+    o = []
+    ex, ey = 230, 222
+    o.append(f'<rect x="{ex-54}" y="{ey-14}" width="108" height="28" rx="14" fill="#fff" fill-opacity="0.18" stroke="#fff" stroke-width="1.4" opacity="0.9"/>')
+    reps = [(120, 320), (230, 320), (340, 320)]
+    for i, (x, y) in enumerate(reps):
+        dead = (i == 1)
+        o.append(f'<line x1="{ex}" y1="{ey+14}" x2="{x}" y2="{y-26}" stroke="#fff" stroke-width="{1 if dead else 1.6}" opacity="{0.3 if dead else 0.7}"{" stroke-dasharray=\"4 4\"" if dead else ""}/>')
+        o.append(f'<rect x="{x-38}" y="{y-26}" width="76" height="52" rx="4" fill="#fff" fill-opacity="{0.06 if dead else 0.16}" stroke="#fff" stroke-width="1.2" opacity="{0.45 if dead else 0.9}"/>')
+        for k in range(3):
+            o.append(f'<rect x="{x-28}" y="{y-16+k*14}" width="{56 if not dead else 56}" height="7" rx="1.5" fill="#fff" fill-opacity="{0.12 if dead else 0.4}"/>')
+        if dead:
+            o.append(f'<path d="M {x-16} {y-16} L {x+16} {y+16} M {x+16} {y-16} L {x-16} {y+16}" stroke="#fff" stroke-width="2.2" opacity="0.9"/>')
+    # a new replica rising from the bottom: the reconcile loop
+    o.append(f'<rect x="{230-38}" y="{392}" width="76" height="30" rx="4" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.7" stroke-dasharray="5 3"/>')
+    o.append(f'<path d="M 230 390 L 230 352 M 225 358 L 230 351 L 235 358" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.8"/>')
+    for k, x in enumerate((88, 372)):
+        o.append(f'<circle cx="{x}" cy="{404}" r="3" fill="#fff" opacity="0.5"/>')
+    return "".join(o)
+
+
 # ------------------------------------------------------------------ books
 BOOKS = [
     dict(key="premath", dept="MATH", code="MATH 100",
@@ -343,6 +365,9 @@ BOOKS = [
     dict(key="reqpath", dept="DEV", code="DEV 210",
          ko="요청 경로 지도", en="Request path map",
          meta="22 steps · Seoul to Oregon and back", tech="three.js · Blender", status="IN PROGRESS", fig=fig_route),
+    dict(key="backend3", dept="DEV", code="DEV 203",
+         ko="운영 · 규모 · 신뢰성 · Level 3", en="Run it at scale, 24/7",
+         meta="7 sessions · kind · chaos", tech="measured on kind", status="PUBLISHED", fig=fig_replicas),
 ]
 
 
