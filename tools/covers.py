@@ -409,7 +409,7 @@ BOOKS = [
          meta="19 units · 3 volumes · 10,980 lines", tech="React book · pytest", status="PUBLISHED", fig=fig_block),
     dict(key="netsci", dept="NETS", code="NETS 201",
          ko="경제학자를 위한 네트워크 과학", en="Networks for economists",
-         meta="56 chapters · 4 semesters · 26 done", tech="notebooks · NetworkX", status="IN PROGRESS", fig=fig_network),
+         meta="56 chapters · 4 semesters · 1,487 exercises", tech="notebooks · NetworkX", status="PUBLISHED", fig=fig_network),
     dict(key="backend2", dept="DEV", code="DEV 202",
          ko="실무 백엔드 · Level 2", en="Build it, break it, bring it back",
          meta="10 stages · MiniTrade · Docker lab", tech="measured, not assumed", status="IN PROGRESS", fig=fig_layers),
