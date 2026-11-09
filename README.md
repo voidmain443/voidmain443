@@ -44,6 +44,16 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <table>
 <tr>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/Frontier_economics_BA/"><img src="img/shots/crosssection.gif" alt="단면 · Cross-Section"/></a>
+<h4><a href="https://voidmain443.github.io/Frontier_economics_BA/">단면 · Cross-Section</a> <sub>교과서의 경제 그래프는 고차원 구조의 단면이다</sub></h4>
+<p>경제학 학부 과정을 개념 그래프 위에서 다시 설계하고, 그 설계를 공간으로 보여 주는 런칭 사이트. 1부 고전 교재는 주체와 시장이 하나씩 더해지는 8단계 · 그림 30개이고, 페이지를 공간으로 접으면 각 그림이 고정해 둔 축이 제자리에서 솟는다(WebGPU).</p>
+<p><sub><a href="https://voidmain443.github.io/Frontier_economics_BA/">English</a> · <a href="https://voidmain443.github.io/Frontier_economics_BA/index.ko.html">한국어</a> · <a href="https://voidmain443.github.io/Frontier_economics_BA/classical.html">1부 고전 교재</a></sub><br/><img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/> <img src="https://img.shields.io/badge/M0-59636e?style=flat-square" alt="M0"/></p></td>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/2026_product_space/"><img src="img/shots/supplychain.gif" alt="Global Supply Chain Risk Analysis"/></a>
+<h4><a href="https://voidmain443.github.io/2026_product_space/">Global Supply Chain Risk Analysis</a> <sub>세미나 청강 뒤 직접 구현한 해설 노트</sub></h4>
+<p>LLM 으로 품목 간 공급망 구조를 찾아내고 네트워크 방법으로 리스크를 재는 한국은행 발표(이민영, 2026)를 발표 순서대로 따라가며 다시 구현했다. BACI 1.8억 건 무역 자료와 한은 산업연관표로 복제한 지표 · 회귀, 품목 518개의 3D 공급망 공간, 슬라이드별 팩트체크 대조표.</p>
+<p><sub><a href="https://voidmain443.github.io/2026_product_space/">3D 공급망 공간</a> · <a href="https://voidmain443.github.io/2026_product_space/#method">Method</a> · <a href="https://voidmain443.github.io/2026_product_space/#result">Result</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/NetworkX-3776AB?style=flat-square&logo=python&logoColor=white" alt="NetworkX"/> <img src="https://img.shields.io/badge/BACI_%C2%B7_ECOS-1a4f7a?style=flat-square" alt="BACI · ECOS"/></p></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><a href="https://voidmain443.github.io/project_consulting_with_gh/"><img src="img/shots/pmgh.gif" alt="PM을 위한 GitHub CLI"/></a>
 <h4><a href="https://voidmain443.github.io/project_consulting_with_gh/">PM을 위한 GitHub CLI</a> <sub>이슈와 PR 기록으로 완료 확률을 계산하고 병목을 찾는다</sub></h4>
 <p>기획자와 PM이 gh 로 백로그 · 스프린트 · PR · 회의 기록을 운영하고(1단계), 같은 기록을 이벤트 로그로 바꿔 프로세스 마이닝으로 병목을 찾는(2단계) 실습 과정. Level 1 여섯 회차에 측정 · 통제 · 마이닝 심화 · PM 본류 네 트랙. 22회 × 180분, 키트 스크립트 44개.</p>
@@ -54,25 +64,21 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 <p><sub><a href="https://voidmain443.github.io/inequality-atlas/">지구본</a> · <a href="https://voidmain443.github.io/inequality-atlas/#01">01 같은 지니, 다른 불평등</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/D3-F9A03C?style=flat-square&logo=d3&logoColor=white" alt="D3"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></p></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://voidmain443.github.io/production-atlas/"><img src="img/shots/atlas.gif" alt="생산의 해부학 · The Production Atlas"/></a>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/production-atlas/"><img src="img/shots/atlas.jpg" alt="생산의 해부학 · The Production Atlas"/></a>
 <h4><a href="https://voidmain443.github.io/production-atlas/">생산의 해부학 · The Production Atlas</a> <sub>생산함수 추정 문헌의 인터랙티브 아틀라스</sub></h4>
 <p>보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.</p>
 <p><sub><a href="https://voidmain443.github.io/production-atlas/">본문</a> · <a href="https://voidmain443.github.io/production-atlas/atlas.html">논문 아틀라스</a></sub><br/><img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/> <img src="https://img.shields.io/badge/D3-F9A03C?style=flat-square&logo=d3&logoColor=white" alt="D3"/> <img src="https://img.shields.io/badge/KaTeX-1a4f7a?style=flat-square" alt="KaTeX"/></p></td>
-<td width="50%" valign="top"><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/"><img src="img/shots/ftm.gif" alt="Follow the Metrics for PM"/></a>
+<td width="50%" valign="top"><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/"><img src="img/shots/ftm.jpg" alt="Follow the Metrics for PM"/></a>
 <h4><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/">Follow the Metrics for PM</a> <sub>숫자를 읽고, 다음 결정을 설명하는 힘</sub></h4>
 <p>지표의 역사와 측정 방법을 제품의 판단으로 잇는 인터랙티브 교재. 본문 24장과 장별 연습문제 해설, 65개 지표 · 측정 방법 요약집. 분모 · 시간 · 비용 · 비교 조건을 바꿔 가며 직접 계산해 본다.</p>
 <p><sub><a href="https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/">첫 장</a> · <a href="https://voidmain443.github.io/follow_the_metrics_for_PM/materials/">지표 사전</a></sub><br/><img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
 </tr>
-<tr>
-<td width="50%" valign="top"><a href="https://voidmain443.github.io/econometrics-map/"><img src="img/shots/econmap.jpg" alt="Econometrics Archive"/></a>
-<h4><a href="https://voidmain443.github.io/econometrics-map/">Econometrics Archive</a> <sub>교과서 뒤의 논문들</sub></h4>
-<p>교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.</p>
-<p><sub><a href="https://voidmain443.github.io/econometrics-map/map.html">지도</a> · <a href="https://voidmain443.github.io/econometrics-map/timeline.html">타임라인</a> · <a href="https://voidmain443.github.io/econometrics-map/textbooks.html">교과서에서 시작</a></sub><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Obsidian_vault-7C3AED?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian vault"/> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></p></td>
-<td width="50%" valign="top"><a href="https://github.com/voidmain443/overleaf_study_guide"><img src="img/shots/overleaf.jpg" alt="Overleaf와 LaTeX으로 경제학 논문 쓰기"/></a>
-<h4><a href="https://github.com/voidmain443/overleaf_study_guide">Overleaf와 LaTeX으로 경제학 논문 쓰기</a> <sub>서지에서 투고까지</sub></h4>
-<p>빈 파일에서 투고 패키지까지, 학술지 서식으로 조판된 22쪽 논문 한 편을 끝까지 만든다. 교안 39쪽 · 슬라이드 116장 · 시작 프로젝트 · 완성 원고 · 장별 스냅샷 12개.</p>
-<p><sub><a href="https://github.com/voidmain443/overleaf_study_guide">저장소</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/blob/main/guide/latex-paper-guide.pdf">교안 PDF</a> · <a href="https://github.com/voidmain443/overleaf_study_guide/tree/main/starter">시작 프로젝트</a></sub><br/><img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/> <img src="https://img.shields.io/badge/Overleaf-47A141?style=flat-square&logo=overleaf&logoColor=white" alt="Overleaf"/> <img src="https://img.shields.io/badge/v01-2f6f4f?style=flat-square" alt="v01"/></p></td>
-</tr>
+</table>
+
+<h4>Earlier · 지난 프로젝트</h4>
+
+<table>
+<tr><td width="50%" valign="top"><table><tr><td width="200"><a href="https://voidmain443.github.io/econometrics-map/"><img src="img/shots/econmap.jpg" width="200" alt="Econometrics Archive"/></a></td><td valign="top"><b><a href="https://voidmain443.github.io/econometrics-map/">Econometrics Archive</a></b><br/><sub>교과서 뒤의 논문들 · <a href='https://voidmain443.github.io/econometrics-map/map.html'>지도</a> · <a href='https://voidmain443.github.io/econometrics-map/timeline.html'>타임라인</a> · <a href='https://voidmain443.github.io/econometrics-map/textbooks.html'>교과서에서 시작</a></sub></td></tr></table></td><td width="50%" valign="top"><table><tr><td width="200"><a href="https://github.com/voidmain443/overleaf_study_guide"><img src="img/shots/overleaf.jpg" width="200" alt="Overleaf와 LaTeX으로 경제학 논문 쓰기"/></a></td><td valign="top"><b><a href="https://github.com/voidmain443/overleaf_study_guide">Overleaf와 LaTeX으로 경제학 논문 쓰기</a></b><br/><sub>서지에서 투고까지 · <a href='https://github.com/voidmain443/overleaf_study_guide'>저장소</a> · <a href='https://github.com/voidmain443/overleaf_study_guide/blob/main/guide/latex-paper-guide.pdf'>교안 PDF</a> · <a href='https://github.com/voidmain443/overleaf_study_guide/tree/main/starter'>시작 프로젝트</a></sub></td></tr></table></td></tr>
 </table>
 
 <h4>Smaller tools · 작은 도구들</h4>
@@ -101,13 +107,14 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <h3><img src="https://img.shields.io/badge/MATH-%EC%88%98%ED%95%99-2f6f4f?style=flat-square" alt="MATH · 수학"/> &nbsp;수학 <sub>증명 수준의 기초. 나머지 셋이 그 위에 선다.</sub></h3>
 
-<p align="center"><a href="https://voidmain443.github.io/pre_math_lecture_jupyter/intro.html"><img src="img/cover-premath.svg" width="15%" alt="수학 재건"/></a> <a href="https://voidmain443.github.io/pre_book_of_proof/intro.html"><img src="img/cover-proof.svg" width="15%" alt="차근히 시작하는 증명법"/></a> <a href="https://voidmain443.github.io/Calculus_apostol_jupyterbook/intro.html"><img src="img/cover-calculus.svg" width="15%" alt="미적분학 79회"/></a> <a href="https://voidmain443.github.io/linear_algebra_gilbert/"><img src="img/cover-linalg.svg" width="15%" alt="선형대수 — 서술과 파이썬 구현"/></a> <a href="https://voidmain443.github.io/linear_algebra_foundation_book/"><img src="img/cover-linalg2.svg" width="15%" alt="선형대수학, 다시 그리고 깊게"/></a></p>
+<p align="center"><a href="https://voidmain443.github.io/pre_math_lecture_jupyter/intro.html"><img src="img/cover-premath.svg" width="15%" alt="수학 재건"/></a> <a href="https://voidmain443.github.io/pre_book_of_proof/intro.html"><img src="img/cover-proof.svg" width="15%" alt="차근히 시작하는 증명법"/></a> <a href="https://voidmain443.github.io/Calculus_apostol_jupyterbook/intro.html"><img src="img/cover-calculus.svg" width="15%" alt="미적분학 79회"/></a> <a href="https://voidmain443.github.io/linear_algebra_gilbert/"><img src="img/cover-linalg.svg" width="15%" alt="선형대수 — 서술과 파이썬 구현"/></a> <a href="https://voidmain443.github.io/linear_algebra_foundation_book/"><img src="img/cover-linalg2.svg" width="15%" alt="선형대수학, 다시 그리고 깊게"/></a> <a href="https://voidmain443.github.io/mathematical_statistics/"><img src="img/cover-mathstat.svg" width="15%" alt="수리통계학 × 통계학의 역사"/></a></p>
 
 - **[수학 재건 · Foundations before Calculus](https://voidmain443.github.io/pre_math_lecture_jupyter/intro.html)** — arithmetic, algebra and single-variable calculus rebuilt out of a 36-week study group; every chapter carries the errors people actually made.<br/><sub>`MATH 100` · 43 chapters · 4 parts · ●</sub>
 - **[차근히 시작하는 증명법 · Where Proof Begins](https://voidmain443.github.io/pre_book_of_proof/intro.html)** — logic, sets, induction and the standard strategies, worked slowly enough that a first proof course stops being a wall: Hammack, then Solow, then Chartrand.<br/><sub>`MATH 150` · 90 weeks · 3 stages · ●</sub>
 - **[미적분학 79회 · Calculus, after Apostol](https://voidmain443.github.io/Calculus_apostol_jupyterbook/intro.html)** — integration before differentiation, aimed the whole way at ∫<sub>Ω</sub> dω = ∫<sub>∂Ω</sub> ω.<br/><sub>`MATH 101` · 79 sessions · 6 parts · ◐</sub>
 - **[선형대수 — 서술과 파이썬 구현 · Linear Algebra, 18.06 rebuilt](https://voidmain443.github.io/linear_algebra_gilbert/)** — each lecture split into a written argument and a NumPy notebook, with a fixed colour convention for domain, codomain, error and subspace.<br/><sub>`MATH 110` · 34 lectures · 9 acts · ●</sub>
 - **[선형대수학, 다시 그리고 깊게 · Linear Algebra, Again and Deeper](https://voidmain443.github.io/linear_algebra_foundation_book/)** — the sequel to 18.06: matrices demoted to coordinate representations, a numerical footnote on every theory chapter, econometrics recovered as projection in Part VI.<br/><sub>`MATH 211` · 60 chapters · 9 parts · 45 weeks · ◐</sub>
+- **[수리통계학 × 통계학의 역사 · Mathematical Statistics, with its history](https://voidmain443.github.io/mathematical_statistics/)** — qualifying-exam mathematical statistics in sixteen sessions, each starting from the historical problem the theorem was built to solve; 116 core theorems proved step by step with a reason on every line, re-implemented in numpy against scipy, then rewritten by hand in the workbook; three 180-minute mock quals.<br/><sub>`MATH 330` · 16 sessions · 790 pages · 675 exercises · 547 workbook items · ●</sub>
 
 <details><summary><sub>전체 계획 · planned volumes in MATH</sub></summary><br/><sub>MATH 120 확률통계 · MATH 201 해석학 (◐) · MATH 210 미분방정식 · MATH 220 다변수해석 · MATH 230 이산·조합론 · MATH 240 수치해석 · MATH 260 최적화 · MATH 301 측도·확률론 · MATH 310 확률과정 · MATH 320 함수해석 · MATH 330 통계적 추론</sub></details>
 
@@ -118,7 +125,7 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 - **[경제학과 1학년을 위한 파이썬 (2판) · Python for Economists](https://voidmain443.github.io/ECONO_000/)** — from variables and loops to supply-and-demand models in Matplotlib; second edition rewritten from a semester of student feedback.<br/><sub>`ECON 100` · 8 weeks · 11 chapters · ●</sub>
 - **[경제학원론 · Principles of Economics](https://voidmain443.github.io/economic_principle_book/)** — taught against open data (Maddison, World Bank, OWID, Penn World Table) instead of drawn diagrams.<br/><sub>`ECON 101` · 15 chapters · 4 parts · ●</sub>
 - **[식 일기 · Understanding World on Equation](https://voidmain443.github.io/Equation_diary/)** — a math camp on reading, not solving: what each symbol names, which assumption each line leans on, where undergraduate and graduate readings part ways.<br/><sub>`ECON 510` · 24 weeks · 3 parts · ◐</sub>
-- **FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리 · Financial Risk, assembled from scratch** — build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility.<br/><sub>`ECON 640` · 73 sessions · 5 semesters · ◐</sub>
+- **[FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리 · Financial Risk, assembled from scratch](https://voidmain443.github.io/FRM_STUDY_NOTE/)** — build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility.<br/><sub>`ECON 640` · 73 sessions · 5 semesters · 3 final, 38 drafted · ◐</sub>
 
 <details><summary><sub>전체 계획 · planned volumes in ECON</sub></summary><br/><sub>ECON 201 미시 · ECON 202 거시 · ECON 301 계량 · ECON 311 게임이론 · ECON 320 산업조직 · ECON 401 시계열 · ECON 520 수리경제 · ECON 601/602 미시·거시이론 · ECON 610 계량이론 · ECON 620 계산경제학 · ECON 630 금융경제학</sub></details>
 
@@ -126,17 +133,17 @@ Learning and DEV journey, 공부할 교재들과 부족했던 부분들을 과�
 
 <p align="center"><a href="https://voidmain443.github.io/Econ_network_science/"><img src="img/cover-netsci.svg" width="15%" alt="경제학자를 위한 네트워크 과학"/></a></p>
 
-- **[경제학자를 위한 네트워크 과학 · Networks for Economists](https://voidmain443.github.io/Econ_network_science/)** — from graph theory to network econometrics in 24 months: solve each small example by hand, rebuild the model in Python, then apply it to BEA, OECD, CEPII, BIS and SEC data.<br/><sub>`NETS 201` · 56 chapters · 4 semesters · 26 written · ◐</sub>
+- **[경제학자를 위한 네트워크 과학 · Networks for Economists](https://voidmain443.github.io/Econ_network_science/)** — from graph theory to network econometrics in 24 months: solve each small example by hand, rebuild the model in Python, then apply it to BEA, OECD, CEPII, BIS and SEC data.<br/><sub>`NETS 201` · 56 chapters · 4 semesters · 1,487 exercises · ●</sub>
 - **네트워크 과학의 수학 · Mathematics of Network Science** — the bridge from economics toward AI; graphs, measures, random graphs and the statistical physics behind them.<br/><sub>`NETS 301` · 64-page manuscript · ◐</sub>
 
 <details><summary><sub>전체 계획 · planned volumes in NETS</sub></summary><br/><sub>NETS 201 네트워크 기초 · NETS 310 통계물리 · NETS 320 랜덤그래프 · NETS 330 네트워크 동역학 · NETS 410 네트워크경제학 · NETS 510 복잡계 · NETS 520 경제물리학 · NETS 530 네트워크 추론</sub></details>
 
 <h3><img src="https://img.shields.io/badge/AI-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-8a5622?style=flat-square" alt="AI · 인공지능"/> &nbsp;인공지능 <sub>데이터 기초에서 그래프 신경망까지. 넷이 모이는 곳.</sub></h3>
 
-<p align="center"><a href="https://voidmain443.github.io/building_database/"><img src="img/cover-builddb.svg" width="15%" alt="Oracle 을 파이썬으로 처음부터 만들며 이해하기"/></a></p>
+<p align="center"><a href="https://voidmain443.github.io/building_database/"><img src="img/cover-builddb.svg" width="15%" alt="Oracle 을 파이썬으로 처음부터 만들며 이해하기"/></a> <a href="https://voidmain443.github.io/SQL_in_deep/"><img src="img/cover-sqltuner.svg" width="15%" alt="SQL_in_deep · 튜너의 1년"/></a></p>
 
 - **[Oracle 을 파이썬으로 처음부터 만들며 이해하기 · Build a Database](https://voidmain443.github.io/building_database/)** — a learner who only knows <code>SELECT</code> builds Oracle's storage and instance structure one line at a time, up to crash recovery and row locks.<br/><sub>`AI 105` · 19 units · 3 volumes · 10,980 lines · ●</sub>
-- **SQLP 합격에서 Hero까지 · SQL deepdive** — exam preparation, then the principles behind execution plans, then a performance lab on Oracle 23ai.<br/><sub>`AI 100` · 8 weeks · 1,100+ items · 12 lectures · ◐</sub>
+- **[SQL_in_deep · 튜너의 1년 · A Tuner's First Year](https://voidmain443.github.io/SQL_in_deep/)** — Oracle SQL tuning as a story: a tuner three days into the job fixes the same six pieces of code over nineteen episodes and writes the in-house standard in the last one; every call is made on logical reads you measure yourself, and 700 SQLP-style problems are graded in the browser.<br/><sub>`AI 100` · 19 episodes · 700 graded problems · Oracle 26ai · ◐</sub>
 - **ADP 실습 교재 · Data Analysis with pandas** — read, analyse and report: access audits, ledger reconciliation, checkout funnels, return distributions, delivery sampling.<br/><sub>`AI 110` · 24 projects · 316 notebooks · 500 problems · ◐</sub>
 - **[8주 생성형 AI 집중 과정 · Generative AI, local edition](https://github.com/voidmain443/8week_AI_with_GeminiAPI)** — Google × Kaggle's intensives redesigned as eight Thursday sessions: prompting, embeddings, RAG, function calling, agents, fine-tuning, MLOps.<br/><sub>`AI 200` · 8 weeks · Gemini API · ●</sub>
 
