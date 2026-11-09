@@ -24,7 +24,7 @@ LANES = [
         ("MATH 301", "Measure & Prob.",     "측도·확률론",   5, "plan", "grad"),
         ("MATH 320", "Functional Analysis", "함수해석",      5, "plan", "grad"),
         ("MATH 310", "Stochastic Processes", "확률과정",     6, "plan", "grad"),
-        ("MATH 330", "Statistical Inference", "통계적 추론", 6, "plan", "grad"),
+        ("MATH 330", "Mathematical Statistics", "수리통계학", 6, "pub",  "grad"),
     ]),
     ("ECON", "경제학", [
         ("ECON 100", "Python for Economists", "경제학 파이썬", 1, "pub",  "base"),
@@ -45,7 +45,7 @@ LANES = [
         ("ECON 640", "Financial Risk",        "금융 리스크",   6, "wip",  "grad"),
     ]),
     ("NETS", "네트워크 과학", [
-        ("NETS 201", "Networks for Economists", "네트워크 과학", 3, "wip",  "ug"),
+        ("NETS 201", "Networks for Economists", "네트워크 과학", 3, "pub",  "ug"),
         ("NETS 301", "Network Science",       "네트워크 과학",   4, "wip",  "ug"),
         ("NETS 310", "Statistical Physics",   "통계물리",        4, "plan", "ug"),
         ("NETS 320", "Random Graphs",         "랜덤그래프",      5, "plan", "grad"),

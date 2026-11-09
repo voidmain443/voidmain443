@@ -324,6 +324,57 @@ def fig_replicas():
     return "".join(o)
 
 
+def fig_bell():
+    """A normal density with one tail shaded, and the likelihood curve that estimates its centre."""
+    o = []
+    x0, w, base = 78, 304, 414
+    pts = []
+    for k in range(81):
+        t = k / 80
+        z = (t - 0.5) * 6
+        y = base - 150 * math.exp(-0.5 * z * z)
+        pts.append((x0 + t * w, y))
+    d = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+    o.append(f'<path d="{d}" fill="none" stroke="#fff" stroke-width="2.4" opacity="0.95"/>')
+    tail = [p for p in pts if p[0] >= x0 + 0.78 * w]
+    dt = f"M {tail[0][0]:.1f} {base} L " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in tail) + f" L {tail[-1][0]:.1f} {base} Z"
+    o.append(f'<path d="{dt}" fill="#fff" fill-opacity="0.28"/>')
+    o.append(f'<line x1="{x0}" y1="{base}" x2="{x0+w}" y2="{base}" stroke="#fff" stroke-width="1" opacity="0.5"/>')
+    cx = x0 + 0.5 * w
+    o.append(f'<line x1="{cx}" y1="{base}" x2="{cx}" y2="{base-150}" stroke="#fff" stroke-width="1" opacity="0.5" stroke-dasharray="4 4"/>')
+    # likelihood: a narrow bump above, peaking at the same centre
+    lp = []
+    for k in range(61):
+        t = k / 60
+        z = (t - 0.5) * 9
+        lp.append((x0 + t * w, 232 - 26 * math.exp(-0.5 * z * z)))
+    o.append(f'<path d="M ' + " L ".join(f"{x:.1f} {y:.1f}" for x, y in lp) + '" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.6"/>')
+    o.append(f'<circle cx="{cx}" cy="206" r="3.5" fill="#fff" opacity="0.9"/>')
+    return "".join(o)
+
+
+def fig_plan():
+    """An execution plan as a tree: a nested loop over an index range scan and a table access, each with its buffer count."""
+    o = []
+    nodes = {"NL": (230, 236), "IX": (150, 318), "TA": (310, 318), "LF": (150, 398), "RID": (310, 398)}
+    edges = [("NL", "IX"), ("NL", "TA"), ("IX", "LF"), ("TA", "RID")]
+    for a, b in edges:
+        (ax, ay), (bx, by) = nodes[a], nodes[b]
+        o.append(f'<line x1="{ax}" y1="{ay+16}" x2="{bx}" y2="{by-16}" stroke="#fff" stroke-width="1.2" opacity="0.6"/>')
+    widths = {"NL": 118, "IX": 110, "TA": 110, "LF": 86, "RID": 86}
+    hot = {"TA"}
+    for k, (x, y) in nodes.items():
+        wd = widths[k]
+        o.append(f'<rect x="{x-wd/2:.1f}" y="{y-16}" width="{wd}" height="32" rx="4" fill="#fff" fill-opacity="{0.28 if k in hot else 0.12}" stroke="#fff" stroke-width="{1.8 if k in hot else 1.1}" opacity="0.9"/>')
+        o.append(f'<rect x="{x-wd/2+10:.1f}" y="{y-5}" width="{wd*0.42:.1f}" height="4" rx="2" fill="#fff" fill-opacity="0.6"/>')
+        o.append(f'<rect x="{x+wd/2-26:.1f}" y="{y-5}" width="16" height="4" rx="2" fill="#fff" fill-opacity="{0.95 if k in hot else 0.4}"/>')
+    # the buffers scale at the right
+    o.append(f'<line x1="392" y1="222" x2="392" y2="414" stroke="#fff" stroke-width="1" opacity="0.35"/>')
+    for i, h in enumerate((60, 24, 150, 10)):
+        o.append(f'<line x1="386" y1="{414-i*48-h/4}" x2="398" y2="{414-i*48-h/4}" stroke="#fff" stroke-width="1" opacity="0.35"/>')
+    return "".join(o)
+
+
 # ------------------------------------------------------------------ books
 BOOKS = [
     dict(key="premath", dept="MATH", code="MATH 100",
@@ -368,6 +419,12 @@ BOOKS = [
     dict(key="backend3", dept="DEV", code="DEV 203",
          ko="운영 · 규모 · 신뢰성 · Level 3", en="Run it at scale, 24/7",
          meta="7 sessions · kind · chaos", tech="measured on kind", status="PUBLISHED", fig=fig_replicas),
+    dict(key="mathstat", dept="MATH", code="MATH 330",
+         ko="수리통계학 × 통계학의 역사", en="Mathematical statistics, with its history",
+         meta="16 sessions · 790 pages · 675 exercises", tech="LaTeX · numpy", status="PUBLISHED", fig=fig_bell),
+    dict(key="sqltuner", dept="AI", code="AI 100",
+         ko="튜너의 1년", en="A tuner's first year",
+         meta="19 episodes · 700 graded problems", tech="Oracle 26ai · Docker", status="IN PROGRESS", fig=fig_plan),
 ]
 
 

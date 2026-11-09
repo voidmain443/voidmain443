@@ -40,6 +40,20 @@ BLOG = dict(
 
 # ---------------------------------------------------------------- projects (public material only)
 PROJ = [
+    dict(gif="img/shots/crosssection.gif", url="https://voidmain443.github.io/Frontier_economics_BA/",
+         title="단면 · Cross-Section", ko="교과서의 경제 그래프는 고차원 구조의 단면이다",
+         desc="경제학 학부 과정을 개념 그래프 위에서 다시 설계하고, 그 설계를 공간으로 보여 주는 런칭 사이트. 1부 고전 교재는 주체와 시장이 하나씩 더해지는 8단계 · 그림 30개이고, 페이지를 공간으로 접으면 각 그림이 고정해 둔 축이 제자리에서 솟는다(WebGPU).",
+         links=[("English", "https://voidmain443.github.io/Frontier_economics_BA/"),
+                ("한국어", "https://voidmain443.github.io/Frontier_economics_BA/index.ko.html"),
+                ("1부 고전 교재", "https://voidmain443.github.io/Frontier_economics_BA/classical.html")],
+         tech=[("WebGPU", "webgpu", "005A9C"), ("GitHub Pages", "githubpages", "222222"), ("M0", None, "59636e")]),
+    dict(gif="img/shots/supplychain.gif", url="https://voidmain443.github.io/2026_product_space/",
+         title="Global Supply Chain Risk Analysis", ko="세미나 청강 뒤 직접 구현한 해설 노트",
+         desc="LLM 으로 품목 간 공급망 구조를 찾아내고 네트워크 방법으로 리스크를 재는 한국은행 발표(이민영, 2026)를 발표 순서대로 따라가며 다시 구현했다. BACI 1.8억 건 무역 자료와 한은 산업연관표로 복제한 지표 · 회귀, 품목 518개의 3D 공급망 공간, 슬라이드별 팩트체크 대조표.",
+         links=[("3D 공급망 공간", "https://voidmain443.github.io/2026_product_space/"),
+                ("Method", "https://voidmain443.github.io/2026_product_space/#method"),
+                ("Result", "https://voidmain443.github.io/2026_product_space/#result")],
+         tech=[("Three.js", "threedotjs", "000000"), ("NetworkX", "python", "3776AB"), ("BACI · ECOS", None, "1a4f7a")]),
     dict(gif="img/shots/pmgh.gif", url="https://voidmain443.github.io/project_consulting_with_gh/",
          title="PM을 위한 GitHub CLI", ko="이슈와 PR 기록으로 완료 확률을 계산하고 병목을 찾는다",
          desc="기획자와 PM이 gh 로 백로그 · 스프린트 · PR · 회의 기록을 운영하고(1단계), 같은 기록을 이벤트 로그로 바꿔 프로세스 마이닝으로 병목을 찾는(2단계) 실습 과정. Level 1 여섯 회차에 측정 · 통제 · 마이닝 심화 · PM 본류 네 트랙. 22회 × 180분, 키트 스크립트 44개.",
@@ -53,18 +67,20 @@ PROJ = [
          links=[("지구본", "https://voidmain443.github.io/inequality-atlas/"),
                 ("01 같은 지니, 다른 불평등", "https://voidmain443.github.io/inequality-atlas/#01")],
          tech=[("Three.js", "threedotjs", "000000"), ("D3", "d3", "F9A03C"), ("pandas", "pandas", "150458")]),
-    dict(gif="img/shots/atlas.gif", url="https://voidmain443.github.io/production-atlas/",
+    dict(gif="img/shots/atlas.jpg", url="https://voidmain443.github.io/production-atlas/",
          title="생산의 해부학 · The Production Atlas", ko="생산함수 추정 문헌의 인터랙티브 아틀라스",
          desc="보이지 않는 생산성을 어떻게 추정할까. 한 줄의 생산함수 뒤에 숨은 90여 년의 논쟁을 7개 장의 스크롤 설명과 회전하는 3D 생산 표면으로 따라간다. 논문 20편의 해설과 OP · LP · ACF · Wooldridge 추정량을 브라우저에서 직접 돌리는 시뮬레이션.",
          links=[("본문", "https://voidmain443.github.io/production-atlas/"),
                 ("논문 아틀라스", "https://voidmain443.github.io/production-atlas/atlas.html")],
          tech=[("Three.js", "threedotjs", "000000"), ("D3", "d3", "F9A03C"), ("KaTeX", None, "1a4f7a")]),
-    dict(gif="img/shots/ftm.gif", url="https://voidmain443.github.io/follow_the_metrics_for_PM/",
+    dict(gif="img/shots/ftm.jpg", url="https://voidmain443.github.io/follow_the_metrics_for_PM/",
          title="Follow the Metrics for PM", ko="숫자를 읽고, 다음 결정을 설명하는 힘",
          desc="지표의 역사와 측정 방법을 제품의 판단으로 잇는 인터랙티브 교재. 본문 24장과 장별 연습문제 해설, 65개 지표 · 측정 방법 요약집. 분모 · 시간 · 비용 · 비교 조건을 바꿔 가며 직접 계산해 본다.",
          links=[("첫 장", "https://voidmain443.github.io/follow_the_metrics_for_PM/read/01/"),
                 ("지표 사전", "https://voidmain443.github.io/follow_the_metrics_for_PM/materials/")],
          tech=[("Astro", "astro", "BC52EE"), ("TypeScript", "typescript", "3178C6"), ("GitHub Pages", "githubpages", "222222")]),
+]
+PROJ_EARLIER = [  # keeps a thumbnail row below the cards; move a card here when the grid passes six
     dict(gif="img/shots/econmap.jpg", url="https://voidmain443.github.io/econometrics-map/",
          title="Econometrics Archive", ko="교과서 뒤의 논문들",
          desc="교과서의 모든 방법은 논문에서 왔다. 10권 · 189장을 그 뒤의 논문 298편과 793개 링크로 잇고, 11개 계보 띠 위에 200년의 지도로 그렸다. 정본 논문 48편은 금테.",
@@ -123,11 +139,14 @@ BOOKS = [
     dict(dept="ECON", code="ECON 510", cover="eqdiary", shot="eqdiary-w04", url="https://voidmain443.github.io/Equation_diary/",
          ko="식 일기", en="Understanding World on Equation", shape="24 weeks · 3 parts", status="wip",
          line="a math camp on reading, not solving: what each symbol names, which assumption each line leans on, where undergraduate and graduate readings part ways."),
-    dict(dept="ECON", code="ECON 640", cover=None, shot=None, url=None,
-         ko="FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리", en="Financial Risk, assembled from scratch", shape="73 sessions · 5 semesters", status="wip",
+    dict(dept="ECON", code="ECON 640", cover=None, shot=None, url="https://voidmain443.github.io/FRM_STUDY_NOTE/",
+         ko="FRM 교안 · 밑바닥부터 조립하는 금융 리스크 관리", en="Financial Risk, assembled from scratch", shape="73 sessions · 5 semesters · 3 final, 38 drafted", status="wip",
          line="build every tool by hand first, then check it against libraries, closed forms and the regulation, then break it on purpose; real data snapshots from EODHD, pinned for reproducibility."),
+    dict(dept="MATH", code="MATH 330", cover="mathstat", shot=None, url="https://voidmain443.github.io/mathematical_statistics/",
+         ko="수리통계학 × 통계학의 역사", en="Mathematical Statistics, with its history", shape="16 sessions · 790 pages · 675 exercises · 547 workbook items", status="pub",
+         line="qualifying-exam mathematical statistics in sixteen sessions, each starting from the historical problem the theorem was built to solve; 116 core theorems proved step by step with a reason on every line, re-implemented in numpy against scipy, then rewritten by hand in the workbook; three 180-minute mock quals."),
     dict(dept="NETS", code="NETS 201", cover="netsci", shot=None, url="https://voidmain443.github.io/Econ_network_science/",
-         ko="경제학자를 위한 네트워크 과학", en="Networks for Economists", shape="56 chapters · 4 semesters · 26 written", status="wip",
+         ko="경제학자를 위한 네트워크 과학", en="Networks for Economists", shape="56 chapters · 4 semesters · 1,487 exercises", status="pub",
          line="from graph theory to network econometrics in 24 months: solve each small example by hand, rebuild the model in Python, then apply it to BEA, OECD, CEPII, BIS and SEC data."),
     dict(dept="NETS", code="NETS 301", cover=None, shot=None, url=None,
          ko="네트워크 과학의 수학", en="Mathematics of Network Science", shape="64-page manuscript", status="wip",
@@ -135,9 +154,9 @@ BOOKS = [
     dict(dept="AI", code="AI 105", cover="builddb", shot="bdb", url="https://voidmain443.github.io/building_database/",
          ko="Oracle 을 파이썬으로 처음부터 만들며 이해하기", en="Build a Database", shape="19 units · 3 volumes · 10,980 lines", status="pub",
          line="a learner who only knows <code>SELECT</code> builds Oracle's storage and instance structure one line at a time, up to crash recovery and row locks."),
-    dict(dept="AI", code="AI 100", cover=None, shot=None, url=None,
-         ko="SQLP 합격에서 Hero까지", en="SQL deepdive", shape="8 weeks · 1,100+ items · 12 lectures", status="wip",
-         line="exam preparation, then the principles behind execution plans, then a performance lab on Oracle 23ai."),
+    dict(dept="AI", code="AI 100", cover="sqltuner", shot=None, url="https://voidmain443.github.io/SQL_in_deep/",
+         ko="SQL_in_deep · 튜너의 1년", en="A Tuner's First Year", shape="19 episodes · 700 graded problems · Oracle 26ai", status="wip",
+         line="Oracle SQL tuning as a story: a tuner three days into the job fixes the same six pieces of code over nineteen episodes and writes the in-house standard in the last one; every call is made on logical reads you measure yourself, and 700 SQLP-style problems are graded in the browser."),
     dict(dept="AI", code="AI 110", cover=None, shot=None, url=None,
          ko="ADP 실습 교재", en="Data Analysis with pandas", shape="24 projects · 316 notebooks · 500 problems", status="wip",
          line="read, analyse and report: access audits, ledger reconciliation, checkout funnels, return distributions, delivery sampling."),
@@ -309,8 +328,12 @@ def projects(compact=False):
         if len(pair) == 1:  # odd count: the last card shares its row with the small tools
             cells += f'<td width="50%" valign="top">\n\n{tools_cell}</td>\n'
         rows.append(f"<tr>\n{cells}</tr>")
+    earlier = ""
+    if PROJ_EARLIER:
+        cells = "".join(f'<td width="50%" valign="top"><table><tr><td width="200"><a href="{p["url"]}"><img src="{p["gif"]}" width="200" alt="{p["title"]}"/></a></td><td valign="top"><b><a href="{p["url"]}">{p["title"]}</a></b><br/><sub>{p["ko"]} · {" · ".join(f"<a href={chr(39)}{u}{chr(39)}>{n}</a>" for n, u in p["links"])}</sub></td></tr></table></td>' for p in PROJ_EARLIER)
+        earlier = "\n<h4>Earlier · 지난 프로젝트</h4>\n\n<table>\n<tr>" + cells + "</tr>\n</table>\n"
     tail = "" if len(PROJ) % 2 else "\n" + tools_cell
-    return head + "\n<table>\n" + "\n".join(rows) + "\n</table>\n" + tail
+    return head + "\n<table>\n" + "\n".join(rows) + "\n</table>\n" + earlier + tail
 
 ROADMAP = """
 <p align="center">
